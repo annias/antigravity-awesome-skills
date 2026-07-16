@@ -1,7 +1,7 @@
 <!-- registry-sync: version=12.2.1; skills=1525; stars=39939; updated_at=2026-06-07T08:14:30+00:00 -->
 [![Antigravity Awesome Skills hero](assets/aas-readme-hero.jpeg)](https://github.com/sickn33/antigravity-awesome-skills)
 
-# 🌌 Antigravity Awesome Skills: 1,525+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+# 🌌 Awesome Skills: 1,525+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
 > **Installable GitHub library of 1,525+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and other AI coding assistants.**
 
