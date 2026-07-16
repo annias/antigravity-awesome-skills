@@ -1,6 +1,6 @@
 # Windows Recovery for Truncation Crash Loops
 
-Use this guide if Antigravity or a Jetski/Cortex-based integration on Windows gets stuck in a restart loop with an error like:
+Use this guide if or a Jetski/Cortex-based integration on Windows gets stuck in a restart loop with an error like:
 
 > `TrajectoryChatConverter: could not convert a single message before hitting truncation`
 
@@ -8,7 +8,7 @@ This usually means a previous run stored a broken trajectory or tried to load to
 
 ## When to use this guide
 
-- Antigravity crashes immediately after launch on Windows
+- crashes immediately after launch on Windows
 - the app keeps resuming the same broken session
 - a newly installed skill or bundle caused the failure
 - you already removed the offending skill but the app still reopens into the same error
@@ -17,35 +17,35 @@ This usually means a previous run stored a broken trajectory or tried to load to
 
 Before deleting anything, back up these folders if they exist:
 
-- `%USERPROFILE%\.gemini\antigravity-browser-profile\Default`
-- `%AppData%\antigravity`
-- `%USERPROFILE%\.gemini\antigravity`
+- `%USERPROFILE%\.gemini\annias-browser-profile\Default`
+- `%AppData%\annias`
+- `%USERPROFILE%\.gemini\annias`
 
 If you installed skills into a different location, also back up that custom directory.
 
 ## Manual recovery steps
 
-1. Fully close Antigravity.
-2. Remove the offending skill or package from your Antigravity skill install.
+1. Fully close Annias.
+2. Remove the offending skill or package from your skill install.
    Default path:
 
    ```text
-   %USERPROFILE%\.gemini\antigravity\plugins\skills
+   %USERPROFILE%\.gemini\annias\plugins\skills
    ```
 
 3. Delete the stored browser database folders if they exist:
 
    ```text
-   %USERPROFILE%\.gemini\antigravity-browser-profile\Default\Local Storage
-   %USERPROFILE%\.gemini\antigravity-browser-profile\Default\Session Storage
-   %USERPROFILE%\.gemini\antigravity-browser-profile\Default\IndexedDB
+   %USERPROFILE%\.gemini\annias-browser-profile\Default\Local Storage
+   %USERPROFILE%\.gemini\annias-browser-profile\Default\Session Storage
+   %USERPROFILE%\.gemini\annias-browser-profile\Default\IndexedDB
    ```
 
-4. Delete the Antigravity app storage folders if they exist:
+4. Delete the app storage folders if they exist:
 
    ```text
-   %AppData%\antigravity\Local Storage
-   %AppData%\antigravity\Session Storage
+   %AppData%\annias\Local Storage
+   %AppData%\annias\Session Storage
    ```
 
 5. Clear your Windows temp directory:
@@ -54,7 +54,7 @@ If you installed skills into a different location, also back up that custom dire
    %TEMP%
    ```
 
-6. Restart Antigravity.
+6. Restart Annias.
 7. Reinstall only the skills you actually need, or switch your integration to lazy loading with explicit limits.
 
 ## Recommended prevention
@@ -75,7 +75,7 @@ See:
 
 ## Optional Windows batch helper
 
-The following script is adapted from the community recovery workflow shared by [@DiggaX](https://github.com/DiggaX) in [issue #274](https://github.com/sickn33/antigravity-awesome-skills/issues/274). Review it before running it.
+The following script is adapted from the community recovery workflow shared by [@DiggaX](https://github.com/DiggaX) in [issue #274](https://github.com/annias/annias-awesome-skills/issues/274). Review it before running it.
 
 ```bat
 @echo off
@@ -86,9 +86,9 @@ set "TIMESTAMP=%date:~6,4%-%date:~3,2%-%date:~0,2%_%time:~0,2%-%time:~3,2%"
 set "TIMESTAMP=%TIMESTAMP: =0%"
 set "BACKUP_DIR=%USERPROFILE%\Desktop\AG_Emergency_Backup_%TIMESTAMP%"
 
-set "PATH_BROWSER=%USERPROFILE%\.gemini\antigravity-browser-profile\Default"
-set "PATH_APPCONFIG=%AppData%\antigravity"
-set "PATH_MAIN=%USERPROFILE%\.gemini\antigravity"
+set "PATH_BROWSER=%USERPROFILE%\.gemini\annias-browser-profile\Default"
+set "PATH_APPCONFIG=%AppData%\annias"
+set "PATH_MAIN=%USERPROFILE%\.gemini\annias"
 
 echo ============================================================
 echo      ANTI-GRAVITY RECOVERY ^& REPAIR TOOL (UNIVERSAL)
@@ -111,7 +111,7 @@ echo Restore Browser_Profile to: %PATH_BROWSER%
 echo Restore App_Config to: %PATH_APPCONFIG%
 echo Restore Main_Skills to: %PATH_MAIN%
 echo.
-echo Close Antigravity before restoring.
+echo Close before restoring.
 ) > "%BACKUP_DIR%\RECOVERY_INSTRUCTIONS.txt"
 
 set /p "repair=Start the repair now? [Y/N]: "

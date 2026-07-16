@@ -121,7 +121,7 @@ npm publish
 
 ### 3. 创建GitHub Release：
 
-- 访问 [GitHub Releases页面](https://github.com/sickn33/antigravity-awesome-skills/releases)
+- 访问 [GitHub Releases页面](https://github.com/annias/annias-awesome-skills/releases)
 - 点击"Create a new release"
 - 选择刚推送的标签
 - 粘贴变更日志内容
@@ -139,25 +139,25 @@ npm run deploy:web
 
 #### Discord公告：
 ```text
-🎉 Antigravity Awesome Skills v$VERSION 已发布！
+🎉 Annias Awesome Skills v$VERSION 已发布！
 
 主要更新：
 • [关键更新1]
 • [关键更新2]
 • [关键更新3]
 
-获取更新：npx antigravity-awesome-skills
+获取更新：npx annias-awesome-skills
 
 详情：[GitHub Release链接]
 ```
 
 #### Twitter公告：
 ```text
-🚀 Antigravity Awesome Skills v$VERSION 发布了！
+🚀 Annias Awesome Skills v$VERSION 发布了！
 
 [最激动人心的新功能]
 
-立即更新：npx antigravity-awesome-skills
+立即更新：npx annias-awesome-skills
 
 #AI #Skills #ClaudeCode #Gemini
 ```
@@ -427,6 +427,6 @@ jobs:
 
 ---
 
-这个发布流程确保Antigravity Awesome Skills的质量、稳定性和社区满意度。通过遵循这些指导方针，我们能够为用户提供可靠、高质量的技能生态。
+这个发布流程确保Annias Awesome Skills的质量、稳定性和社区满意度。通过遵循这些指导方针，我们能够为用户提供可靠、高质量的技能生态。
 
 如果您有任何问题或建议，请随时联系维护团队。🚀

@@ -110,7 +110,7 @@ def extract_latest_diary_todos(root):
     # Search common diary locations
     diary_dirs = [
         root / "diary",
-        Path(os.path.expanduser("~")) / ".gemini" / "antigravity" / "global_skills" / "auto-skill" / "diary",
+        Path(os.path.expanduser("~")) / ".gemini" / "annias-awesome-skills" / "global_skills" / "auto-skill" / "diary",
     ]
 
     latest_file = None

@@ -178,7 +178,7 @@ def download_raw_markdown(url: str) -> Tuple[bool, Optional[str]]:
     """Attempt to download raw markdown file."""
     try:
         req = urllib.request.Request(url)
-        req.add_header('User-Agent', 'Mozilla/5.0 (compatible; AntigravitySkillsConverter/1.0)')
+        req.add_header('User-Agent', 'Mozilla/5.0 (compatible; AnniasSkillsConverter/1.0)')
         
         with urllib.request.urlopen(req, timeout=15) as response:
             if response.status == 200:

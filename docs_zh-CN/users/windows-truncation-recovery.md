@@ -1,6 +1,6 @@
 # Windows 截断崩溃循环恢复
 
-如果 Antigravity 或基于 Jetski/Cortex 的集成在 Windows 上陷入重启循环,并出现如下错误,请使用本指南:
+如果 或基于 Jetski/Cortex 的集成在 Windows 上陷入重启循环,并出现如下错误,请使用本指南:
 
 > `TrajectoryChatConverter: could not convert a single message before hitting truncation`
 
@@ -8,7 +8,7 @@
 
 ## 何时使用本指南
 
-- Antigravity 在 Windows 上启动后立即崩溃
+- 在 Windows 上启动后立即崩溃
 - 应用程序持续恢复同一个损坏的会话
 - 新安装的技能或捆绑包导致了故障
 - 您已经删除了问题技能,但应用程序仍然打开到同一个错误
@@ -17,35 +17,35 @@
 
 在删除任何内容之前,如果这些文件夹存在,请先备份:
 
-- `%USERPROFILE%\.gemini\antigravity-browser-profile\Default`
-- `%AppData%\antigravity`
-- `%USERPROFILE%\.gemini\antigravity`
+- `%USERPROFILE%\.gemini\annias-browser-profile\Default`
+- `%AppData%\annias`
+- `%USERPROFILE%\.gemini\annias`
 
 如果您将技能安装到不同位置,也请备份该自定义目录。
 
 ## 手动恢复步骤
 
-1. 完全关闭 Antigravity。
-2. 从您的 Antigravity 技能安装中删除有问题的技能或包。
+1. 完全关闭 Annias。
+2. 从您的 技能安装中删除有问题的技能或包。
    默认路径:
 
    ```text
-   %USERPROFILE%\.gemini\antigravity\plugins\skills
+   %USERPROFILE%\.gemini\annias\plugins\skills
    ```
 
 3. 如果存在,删除存储的浏览器数据库文件夹:
 
    ```text
-   %USERPROFILE%\.gemini\antigravity-browser-profile\Default\Local Storage
-   %USERPROFILE%\.gemini\antigravity-browser-profile\Default\Session Storage
-   %USERPROFILE%\.gemini\antigravity-browser-profile\Default\IndexedDB
+   %USERPROFILE%\.gemini\annias-browser-profile\Default\Local Storage
+   %USERPROFILE%\.gemini\annias-browser-profile\Default\Session Storage
+   %USERPROFILE%\.gemini\annias-browser-profile\Default\IndexedDB
    ```
 
-4. 如果存在,删除 Antigravity 应用存储文件夹:
+4. 如果存在,删除 应用存储文件夹:
 
    ```text
-   %AppData%\antigravity\Local Storage
-   %AppData%\antigravity\Session Storage
+   %AppData%\annias\Local Storage
+   %AppData%\annias\Session Storage
    ```
 
 5. 清除您的 Windows 临时目录:
@@ -54,7 +54,7 @@
    %TEMP%
    ```
 
-6. 重启 Antigravity。
+6. 重启 Annias。
 7. 仅重新安装您实际需要的技能,或将您的集成切换到具有明确限制的延迟加载。
 
 ## 推荐的预防措施
@@ -72,7 +72,7 @@
 
 ## 可选的 Windows 批处理助手
 
-以下脚本改编自 [@DiggaX](https://github.com/DiggaX) 在 [issue #274](https://github.com/sickn33/antigravity-awesome-skills/issues/274) 中分享的社区恢复工作流。在运行之前请先查看它。
+以下脚本改编自 [@DiggaX](https://github.com/DiggaX) 在 [issue #274](https://github.com/annias/annias-awesome-skills/issues/274) 中分享的社区恢复工作流。在运行之前请先查看它。
 
 ```bat
 @echo off
@@ -83,9 +83,9 @@ set "TIMESTAMP=%date:~6,4%-%date:~3,2%-%date:~0,2%_%time:~0,2%-%time:~3,2%"
 set "TIMESTAMP=%TIMESTAMP: =0%"
 set "BACKUP_DIR=%USERPROFILE%\Desktop\AG_Emergency_Backup_%TIMESTAMP%"
 
-set "PATH_BROWSER=%USERPROFILE%\.gemini\antigravity-browser-profile\Default"
-set "PATH_APPCONFIG=%AppData%\antigravity"
-set "PATH_MAIN=%USERPROFILE%\.gemini\antigravity"
+set "PATH_BROWSER=%USERPROFILE%\.gemini\annias-browser-profile\Default"
+set "PATH_APPCONFIG=%AppData%\annias"
+set "PATH_MAIN=%USERPROFILE%\.gemini\annias"
 
 echo ============================================================
 echo      ANTI-GRAVITY RECOVERY ^& REPAIR TOOL (UNIVERSAL)
@@ -108,7 +108,7 @@ echo Restore Browser_Profile to: %PATH_BROWSER%
 echo Restore App_Config to: %PATH_APPCONFIG%
 echo Restore Main_Skills to: %PATH_MAIN%
 echo.
-echo Close Antigravity before restoring.
+echo Close before restoring.
 ) > "%BACKUP_DIR%\RECOVERY_INSTRUCTIONS.txt"
 
 set /p "repair=Start the repair now? [Y/N]: "

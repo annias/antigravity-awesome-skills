@@ -14,7 +14,7 @@ plugin:
     claude: blocked
   setup:
     type: manual
-    summary: "Install the ejentum-mcp MCP server (`npx -y ejentum-mcp`) and provide an EJENTUM_API_KEY env var (free tier: 100 calls, no card, at https://ejentum.com/pricing). Add the server to your client's mcpServers config (Claude Code, Cursor, Cline, Windsurf, Codex CLI, Gemini CLI, Antigravity, or VS Code Copilot Chat)."
+    summary: "Install the ejentum-mcp MCP server (`npx -y ejentum-mcp`) and provide an EJENTUM_API_KEY env var (free tier: 100 calls, no card, at https://ejentum.com/pricing). Add the server to your client's mcpServers config (Claude Code, Cursor, Cline, Windsurf, Codex CLI, Gemini CLI, or VS Code Copilot Chat)."
     docs: "https://github.com/ejentum/ejentum-mcp#installation"
 ---
 
@@ -43,7 +43,7 @@ The server is published to npm. Most MCP-speaking clients support stdio installa
 npx -y ejentum-mcp
 ```
 
-Add to your client's MCP server config (Claude Code `.mcp.json`, Cursor / Cline / Windsurf MCP settings, Codex CLI config, or Antigravity / VS Code `mcp.json`):
+Add to your client's MCP server config (Claude Code `.mcp.json`, Cursor / Cline / Windsurf MCP settings, Codex CLI config, or / VS Code `mcp.json`):
 
 ```json
 {

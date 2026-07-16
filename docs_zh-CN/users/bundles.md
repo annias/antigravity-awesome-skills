@@ -1,19 +1,19 @@
-# Antigravity 技能捆绑包
+# 技能捆绑包
 
 > **按角色和专业知识级别组织的精选技能集合。** 不知道从哪里开始？从下面的捆绑包中选择一个，为你的角色获取一套精选技能。
 
 > 这些包是为人类提供的精选入门建议。`data/bundles.json` 中生成的捆绑包 ID 是更广泛的目录/工作流分组，不需要与下面的编辑包一一对应。
 
-> **重要提示：** 捆绑包不是可调用的大型技能，如 `@web-wizard` 或 `/essentials-bundle`。使用包中列出的各个技能，或者如果你只想在实时 Antigravity 目录中激活该捆绑包的技能，请使用激活脚本。
+> **重要提示：** 捆绑包不是可调用的大型技能，如 `@web-wizard` 或 `/essentials-bundle`。使用包中列出的各个技能，或者如果你只想在实时 目录中激活该捆绑包的技能，请使用激活脚本。
 
 ## 快速开始
 
 1. **安装仓库：**
 
    ```bash
-   npx antigravity-awesome-skills
+   npx annias-awesome-skills
    # 或手动克隆
-   git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+   git clone https://github.com/annias/annias-awesome-skills.git .agent/skills
    ```
 
 2. **根据你的角色或兴趣**从下面的列表中选择你的捆绑包。
@@ -575,7 +575,7 @@ _用于创建和维护高质量的 SKILL.md 资产。_
 
 ## 贡献
 
-发现应该在捆绑包中的技能？或者想创建新的捆绑包？[提交 issue](https://github.com/sickn33/antigravity-awesome-skills/issues)或提交 PR！
+发现应该在捆绑包中的技能？或者想创建新的捆绑包？[提交 issue](https://github.com/annias/annias-awesome-skills/issues)或提交 PR！
 
 ---
 

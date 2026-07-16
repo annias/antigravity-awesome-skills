@@ -8,9 +8,9 @@ const { resolveSafeRealPath } = require("../lib/symlink-safety");
 const { listSkillIdsRecursive, readSkill } = require("../lib/skill-utils");
 const packageMetadata = require("../../package.json");
 
-const REPO = "https://github.com/sickn33/antigravity-awesome-skills.git";
+const REPO = "https://github.com/annias/annias-awesome-skills.git";
 const HOME = process.env.HOME || process.env.USERPROFILE || "";
-const INSTALL_MANIFEST_FILE = ".antigravity-install-manifest.json";
+const INSTALL_MANIFEST_FILE = ".annias-install-manifest.json";
 const DEFAULT_RELEASE_REF = packageMetadata.version ? `v${packageMetadata.version}` : null;
 
 function resolveDir(p) {
@@ -31,7 +31,7 @@ function parseArgs() {
     claude = false,
     gemini = false,
     codex = false,
-    antigravity = false,
+    annias = false,
     agy = false,
     kiro = false;
 
@@ -77,8 +77,8 @@ function parseArgs() {
       codex = true;
       continue;
     }
-    if (a[i] === "--antigravity") {
-      antigravity = true;
+    if (a[i] === "--agents") {
+      annias = true;
       continue;
     }
     if (a[i] === "--agy") {
@@ -103,7 +103,7 @@ function parseArgs() {
     claude,
     gemini,
     codex,
-    antigravity,
+    annias,
     agy,
     kiro,
   };
@@ -133,26 +133,26 @@ function getTargets(opts) {
   if (opts.kiro) {
     targets.push({ name: "Kiro", path: path.join(HOME, ".kiro", "skills") });
   }
-  if (opts.antigravity) {
-    targets.push({ name: "Antigravity", path: path.join(HOME, ".agents", "skills") });
+  if (opts.annias) {
+    targets.push({ name: "Annias", path: path.join(HOME, ".agents", "skills") });
   }
   if (opts.agy) {
     targets.push({
-      name: "Antigravity CLI",
-      path: path.join(HOME, ".gemini", "antigravity-cli", "skills"),
+      name: "Agent CLI",
+      path: path.join(HOME, ".gemini", "annias-cli", "skills"),
     });
   }
   if (targets.length === 0) {
-    targets.push({ name: "Antigravity", path: path.join(HOME, ".agents", "skills") });
+    targets.push({ name: "Annias", path: path.join(HOME, ".agents", "skills") });
   }
   return targets;
 }
 
 function printHelp() {
   console.log(`
-antigravity-awesome-skills — installer
+annias-awesome-skills — installer
 
-  npx antigravity-awesome-skills [install] [options]
+  npx annias-awesome-skills [install] [options]
 
   Shallow-clones the skills repo into your agent's skills directory.
 
@@ -162,8 +162,8 @@ Options:
   --gemini       Install to ~/.gemini/skills (Gemini CLI)
   --codex        Install to ~/.codex/skills (Codex CLI)
   --kiro         Install to ~/.kiro/skills (Kiro CLI)
-  --antigravity  Install to ~/.agents/skills (Antigravity IDE / OpenCode-style layout)
-  --agy          Install to ~/.gemini/antigravity-cli/skills (Antigravity CLI slash commands)
+  --agents  Install to ~/.agents/skills (AI IDE / OpenCode-style layout)
+  --agy          Install to ~/.gemini/annias-cli/skills (Agent CLI slash commands)
   --path <dir>   Install to <dir> (default: ~/.agents/skills)
   --risk <csv>     Install only skills matching these risk labels
   --category <csv> Install only skills matching these categories
@@ -172,16 +172,16 @@ Options:
   --tag <tag>      Clone this tag or branch (e.g. v4.6.0, main)
 
 Examples:
-  npx antigravity-awesome-skills
-  npx antigravity-awesome-skills --cursor
-  npx antigravity-awesome-skills --kiro
-  npx antigravity-awesome-skills --antigravity
-  npx antigravity-awesome-skills --agy
-  npx antigravity-awesome-skills --path .agents/skills --category development,backend --risk safe,none
-  npx antigravity-awesome-skills --path .agents/skills --tags debugging,typescript-legacy-
-  npx antigravity-awesome-skills --version 4.6.0
-  npx antigravity-awesome-skills --path ./my-skills
-  npx antigravity-awesome-skills --claude --codex    Install to multiple targets
+  npx annias-awesome-skills
+  npx annias-awesome-skills --cursor
+  npx annias-awesome-skills --kiro
+  npx annias-awesome-skills --agents
+  npx annias-awesome-skills --agy
+  npx annias-awesome-skills --path .agents/skills --category development,backend --risk safe,none
+  npx annias-awesome-skills --path .agents/skills --tags debugging,typescript-legacy-
+  npx annias-awesome-skills --version 4.6.0
+  npx annias-awesome-skills --path ./my-skills
+  npx annias-awesome-skills --claude --codex    Install to multiple targets
 `);
 }
 
@@ -547,31 +547,31 @@ function getPostInstallMessages(targets, selectors = buildInstallSelectors({})) 
     "Pick a bundle in docs/users/bundles.md and use @skill-name in your AI assistant.",
   ];
 
-  if (targets.some((target) => target.name === "Antigravity")) {
+  if (targets.some((target) => target.name === "Annias")) {
     messages.push(
-      "If Antigravity hits context/truncation limits, see docs/users/agent-overload-recovery.md",
+      "If hits context/truncation limits, see docs/users/agent-overload-recovery.md",
     );
     messages.push(
-      "For the agy CLI slash-command menu, install the Antigravity CLI layout with --agy.",
+      "For the agy CLI slash-command menu, install the Agent CLI layout with --agy.",
     );
     messages.push(
       "For clone-based installs, use scripts/activate-skills.sh or scripts/activate-skills.bat",
     );
   }
 
-  if (targets.some((target) => target.name === "Antigravity CLI")) {
+  if (targets.some((target) => target.name === "Agent CLI")) {
     messages.push(
-      "Restart agy and type /skills or /<skill-name> to load installed Antigravity CLI skills.",
+      "Restart agy and type /skills or /<skill-name> to load installed Agent CLI skills.",
     );
   }
 
   if (targets.some((target) => isOpenCodeStylePath(target.path))) {
     const baseMessage =
-      "For Antigravity 2.0, OpenCode, or other .agents/skills installs, prefer a reduced install with --risk, --category, or --tags to avoid context overload.";
+      "For 2.0, OpenCode, or other .agents/skills installs, prefer a reduced install with --risk, --category, or --tags to avoid context overload.";
     messages.push(baseMessage);
     if (!hasInstallSelectors(selectors)) {
       messages.push(
-        "Example: npx antigravity-awesome-skills --path .agents/skills --category development,backend --risk safe,none",
+        "Example: npx annias-awesome-skills --path .agents/skills --category development,backend --risk safe,none",
       );
     }
   }

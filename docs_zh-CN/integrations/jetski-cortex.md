@@ -1,11 +1,11 @@
 ---
 title: Jetski/Cortex + Gemini 集成指南
-description: "如何在不超出上下文窗口的情况下,在 Jetski/Cortex 中使用 antigravity-awesome-skills 的 1,494+ 技能。"
+description: "如何在不超出上下文窗口的情况下,在 Jetski/Cortex 中使用 annias-awesome-skills 的 1,494+ 技能。"
 ---
 
 # Jetski/Cortex + Gemini:与 1,494+ 技能的安全集成
 
-本指南展示如何将 `antigravity-awesome-skills` 仓库与基于 **Jetski/Cortex + Gemini** (或类似框架)的代理集成,**而不会超出模型的上下文窗口**。
+本指南展示如何将 `annias-awesome-skills` 仓库与基于 **Jetski/Cortex + Gemini** (或类似框架)的代理集成,**而不会超出模型的上下文窗口**。
 
 在 Jetski/Cortex 中看到的典型错误是:
 
@@ -247,7 +247,7 @@ async function buildModelMessages(
 如果主机在截断错误后继续重新打开相同的损坏轨迹:
 
 - 删除有问题的技能或包;
-- 删除 Antigravity 使用的本地存储 / 会话存储 / IndexedDB;
+- 删除 使用的本地存储 / 会话存储 / IndexedDB;
 - 清空 `%TEMP%`;
 - 使用延迟加载和显式限制重新启动。
 
@@ -269,4 +269,4 @@ async function buildModelMessages(
 - 基于 `@skill-id` **按需**加载技能。
 - 设置明确的限制(每轮最大技能数、token 阈值)。
 
-遵循此模式,Jetski/Cortex + Gemini 可以安全、可扩展且与现代模型的上下文窗口兼容的方式使用整个 `antigravity-awesome-skills` 库。
+遵循此模式,Jetski/Cortex + Gemini 可以安全、可扩展且与现代模型的上下文窗口兼容的方式使用整个 `annias-awesome-skills` 库。

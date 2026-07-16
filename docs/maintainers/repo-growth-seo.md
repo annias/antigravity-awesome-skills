@@ -6,7 +6,7 @@ This document keeps the repository's GitHub-facing discovery copy aligned with t
 
 Preferred positioning:
 
-> Installable GitHub library of 1,525+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and other AI coding assistants.
+> Installable GitHub library of 1,525+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, and other AI coding assistants.
 
 Key framing:
 
@@ -20,11 +20,11 @@ Key framing:
 
 Preferred description:
 
-> Installable GitHub library of 1,525+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes installer CLI, bundles, workflows, and official/community skill collections.
+> Installable GitHub library of 1,525+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, and more. Includes installer CLI, bundles, workflows, and official/community skill collections.
 
 Preferred homepage:
 
-> `https://github.com/sickn33/antigravity-awesome-skills`
+> `https://github.com/annias/annias-awesome-skills`
 
 Preferred social preview:
 
@@ -34,8 +34,8 @@ Preferred social preview:
 
 Preferred topics:
 
-- `antigravity`
-- `antigravity-skills`
+- `annias`
+- `annias-skills`
 - `claude-code`
 - `claude-code-skills`
 - `cursor`
@@ -79,7 +79,7 @@ Suggested release template:
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
+- Install: `npx annias-awesome-skills`
 - Choose your tool: `README.md#choose-your-tool`
 - Specialized plugins: `README.md#recommended-specialized-plugins`
 - Bundles: `docs/users/bundles.md`
@@ -115,7 +115,7 @@ Suggested pinned discussion topics:
 
 - `Start here: best skills by tool`
 - `Best bundles for new users`
-- `How to choose between Antigravity and other skill libraries`
+- `How to choose between and other skill libraries`
 
 Discussion posts should:
 

@@ -1398,7 +1398,7 @@
     "path": "skills/analyze-project",
     "category": "meta",
     "name": "analyze-project",
-    "description": "Forensic root cause analyzer for Antigravity sessions. Classifies scope deltas, rework patterns, root causes, hotspots, and auto-improves prompts/health.",
+    "description": "Forensic root cause analyzer for sessions. Classifies scope deltas, rework patterns, root causes, hotspots, and auto-improves prompts/health.",
     "risk": "unknown",
     "source": "community",
     "date_added": null,
@@ -1660,11 +1660,11 @@
     }
   },
   {
-    "id": "antigravity-agent-manager",
-    "path": "skills/antigravity-agent-manager",
+    "id": "annias-agent-manager",
+    "path": "skills/annias-agent-manager",
     "category": "general",
-    "name": "antigravity-agent-manager",
-    "description": "Configure and orchestrate parallel agents using the standalone Antigravity 2.0 Agent Manager and Antigravity IDE.",
+    "name": "annias-agent-manager",
+    "description": "Configure and orchestrate parallel agents using the standalone 2.0 Agent Manager and AI IDE.",
     "risk": "critical",
     "source": "self",
     "date_added": "2026-06-04",
@@ -1684,10 +1684,10 @@
     }
   },
   {
-    "id": "antigravity-design-expert",
-    "path": "skills/antigravity-design-expert",
+    "id": "annias-design-expert",
+    "path": "skills/annias-design-expert",
     "category": "design",
-    "name": "antigravity-design-expert",
+    "name": "annias-design-expert",
     "description": "Core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.",
     "risk": "safe",
     "source": "community",
@@ -1706,10 +1706,10 @@
     }
   },
   {
-    "id": "antigravity-skill-orchestrator",
-    "path": "skills/antigravity-skill-orchestrator",
+    "id": "annias-skill-orchestrator",
+    "path": "skills/annias-skill-orchestrator",
     "category": "meta",
-    "name": "antigravity-skill-orchestrator",
+    "name": "annias-skill-orchestrator",
     "description": "A meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.",
     "risk": "safe",
     "source": "community",
@@ -1728,11 +1728,11 @@
     }
   },
   {
-    "id": "antigravity-workflows",
-    "path": "skills/antigravity-workflows",
+    "id": "annias-workflows",
+    "path": "skills/annias-workflows",
     "category": "workflow",
-    "name": "antigravity-workflows",
-    "description": "Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA.",
+    "name": "annias-workflows",
+    "description": "Orchestrate multiple skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA.",
     "risk": "none",
     "source": "self",
     "date_added": "2026-02-27",
@@ -6338,7 +6338,7 @@
     "path": "skills/blockrun",
     "category": "uncategorized",
     "name": "blockrun",
-    "description": "BlockRun works with Claude Code and Google Antigravity.",
+    "description": "BlockRun works with Claude Code and Google Annias.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
@@ -11579,7 +11579,7 @@
       },
       "setup": {
         "type": "manual",
-        "summary": "Install the ejentum-mcp MCP server (`npx -y ejentum-mcp`) and provide an EJENTUM_API_KEY env var (free tier: 100 calls, no card, at https://ejentum.com/pricing). Add the server to your client's mcpServers config (Claude Code, Cursor, Cline, Windsurf, Codex CLI, Gemini CLI, Antigravity, or VS Code Copilot Chat).",
+        "summary": "Install the ejentum-mcp MCP server (`npx -y ejentum-mcp`) and provide an EJENTUM_API_KEY env var (free tier: 100 calls, no card, at https://ejentum.com/pricing). Add the server to your client's mcpServers config (Claude Code, Cursor, Cline, Windsurf, Codex CLI, Gemini CLI, or VS Code Copilot Chat).",
         "docs": "https://github.com/ejentum/ejentum-mcp#installation"
       },
       "reasons": [
@@ -28961,7 +28961,7 @@
     "path": "skills/subagent-orchestrator",
     "category": "uncategorized",
     "name": "subagent-orchestrator",
-    "description": "Coordinate quota-aware parallel subagents for large, multi-file Antigravity tasks.",
+    "description": "Coordinate quota-aware parallel subagents for large, multi-file tasks.",
     "risk": "safe",
     "source": "community",
     "date_added": null,

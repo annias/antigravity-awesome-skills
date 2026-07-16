@@ -5,9 +5,9 @@
 set -e
 
 # Paths
-GITHUB_REPO="/Users/nicco/Antigravity Projects/antigravity-awesome-skills/skills"
-LOCAL_LIBRARY="/Users/nicco/.gemini/antigravity/scratch/.agent/skills"
-BACKUP_DIR="/Users/nicco/.gemini/antigravity/scratch/.agent/skills_backup_$(date +%Y%m%d_%H%M%S)"
+GITHUB_REPO="/Users/nicco/Annias Projects/annias-awesome-skills/skills"
+LOCAL_LIBRARY="/Users/nicco/.gemini/annias/scratch/.agent/skills"
+BACKUP_DIR="/Users/nicco/.gemini/annias/scratch/.agent/skills_backup_$(date +%Y%m%d_%H%M%S)"
 
 remove_local_skill_dirs() {
     find "$1" -mindepth 1 -maxdepth 1 -type d | while IFS= read -r item; do

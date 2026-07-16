@@ -9,7 +9,7 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 
-GITHUB_REPO = "sickn33/antigravity-awesome-skills"
+GITHUB_REPO = "annias/annias-awesome-skills"
 SYNC_COMMENT_RE = re.compile(r"<!-- registry-sync: .*? -->")
 SYNC_COMMENT_FIELDS_RE = re.compile(
     r"<!-- registry-sync: version=(?P<version>[^;]+); skills=(?P<skills>\d+); "
@@ -84,7 +84,7 @@ def fetch_star_count(repo: str) -> int | None:
         url,
         headers={
             "Accept": "application/vnd.github+json",
-            "User-Agent": "antigravity-awesome-skills-readme-sync",
+            "User-Agent": "annias-awesome-skills-readme-sync",
         },
     )
     try:
@@ -186,9 +186,9 @@ def apply_metadata(content: str, metadata: dict) -> str:
     )
 
     content = re.sub(
-        r"^# 🌌 Antigravity Awesome Skills: .*?$",
+        r"^# 🌌 Annias Awesome Skills: .*?$",
         (
-            f"# 🌌 Antigravity Awesome Skills: {total_skills_label} "
+            f"# 🌌 Annias Awesome Skills: {total_skills_label} "
             "Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More"
         ),
         content,
@@ -200,7 +200,7 @@ def apply_metadata(content: str, metadata: dict) -> str:
         (
             f"> **The Ultimate Collection of {total_skills_label} Universal Agentic "
             "Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, "
-            "Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**"
+            "AI IDE, GitHub Copilot, Cursor, OpenCode, AdaL**"
         ),
         content,
         count=1,
@@ -223,9 +223,9 @@ def apply_metadata(content: str, metadata: dict) -> str:
         count=1,
     )
     content = re.sub(
-        r"^\*\*Antigravity Awesome Skills\*\* is a curated, battle-tested library of \*\*.*?\*\* designed",
+        r"^\*\*Annias Awesome Skills\*\* is a curated, battle-tested library of \*\*.*?\*\* designed",
         (
-            f"**Antigravity Awesome Skills** is a curated, battle-tested library of "
+            f"**Annias Awesome Skills** is a curated, battle-tested library of "
             f"**{total_skills_label} high-performance agentic skills** designed"
         ),
         content,
@@ -251,9 +251,9 @@ def apply_metadata(content: str, metadata: dict) -> str:
         count=1,
     )
     content = re.sub(
-        r"\*\*Antigravity Awesome Skills\*\* \(Release [\d.]+\) is a massive upgrade to your AI's capabilities, now featuring \*\*.*?\*\* skills",
+        r"\*\*Annias Awesome Skills\*\* \(Release [\d.]+\) is a massive upgrade to your AI's capabilities, now featuring \*\*.*?\*\* skills",
         (
-            f"**Antigravity Awesome Skills** (Release {version}) is a massive upgrade "
+            f"**Annias Awesome Skills** (Release {version}) is a massive upgrade "
             f"to your AI's capabilities, now featuring **{total_skills_label} skills**"
         ),
         content,

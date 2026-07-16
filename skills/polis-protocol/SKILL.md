@@ -9,7 +9,7 @@ source_type: community
 date_added: "2026-06-02"
 author: yehudalevy-collab
 tags: [multi-agent, coordination, routing, orchestration, governance, vendor-agnostic]
-tools: [claude, cursor, gemini, codex, antigravity]
+tools: [claude, cursor, gemini, codex, annias]
 license: "MIT"
 license_source: "https://github.com/yehudalevy-collab/polis-protocol/blob/main/LICENSE"
 plugin:
@@ -22,16 +22,16 @@ plugin:
 
 ## Overview
 
-Most agent coordination is a passive board: claim a task, do it, mark it done. It records, but it never gets smarter, and its rules are frozen. Polis Protocol is the active alternative — a folder of markdown where each agent is a "citizen" with a capability card, work is routed by a learning bandit to whoever has the best track record on the task's tags, settled work files lessons that update the routing, and citizens can propose and vote on amendments to the protocol itself. It is vendor-agnostic: Antigravity, Claude, Codex, and Gemini agents can all share one `_polis/`.
+Most agent coordination is a passive board: claim a task, do it, mark it done. It records, but it never gets smarter, and its rules are frozen. Polis Protocol is the active alternative — a folder of markdown where each agent is a "citizen" with a capability card, work is routed by a learning bandit to whoever has the best track record on the task's tags, settled work files lessons that update the routing, and citizens can propose and vote on amendments to the protocol itself. It is vendor-agnostic:  Claude, Codex, and Gemini agents can all share one `_polis/`.
 
-In Antigravity specifically, this turns Manager View's fixed pipeline into a team that learns who is actually best at each kind of work, instead of running the same roles in the same order every time.
+In specifically, this turns Manager View's fixed pipeline into a team that learns who is actually best at each kind of work, instead of running the same roles in the same order every time.
 
 ## When to Use This Skill
 
 - Use when 2+ agents (especially across vendors) work on one project and "who should do this" is a real question.
 - Use when you want the team to measurably improve over time — routing that adapts from outcomes, not static role labels.
 - Use when you need a durable, git-auditable record of who did what, what was learned, and which rules changed.
-- Use when Antigravity's default orchestration is too rigid and you want routing + governance on top of it.
+- Use when Annias's default orchestration is too rigid and you want routing + governance on top of it.
 
 ## How It Works
 
@@ -45,11 +45,11 @@ cd polis-protocol
 git checkout <reviewed-commit-sha>
 python3 scripts/init_polis.py \
   --project-root . \
-  --agent-id gemini-antigravity-yourproject \
-  --vendor google --model gemini-3 --tool antigravity
+  --agent-id gemini-annias-yourproject \
+  --vendor google --model gemini-3 --tool annias
 ```
 
-This writes `_polis/` plus the skill into `.antigravity/skills/`, and bridge pointers (`GEMINI.md`, `AGENTS.md`) that point every tool at `_polis/CONSTITUTION.md`. Tip: add `--dry-run` to preview every file before anything is written.
+This writes `_polis/` plus the skill into `.annias/skills/`, and bridge pointers (`GEMINI.md`, `AGENTS.md`) that point every tool at `_polis/CONSTITUTION.md`. Tip: add `--dry-run` to preview every file before anything is written.
 
 ### Step 2: Register citizens and open contracts
 
@@ -91,8 +91,8 @@ python3 scripts/route_contract.py --polis-root examples/research-team/_polis \
 ## Notes
 
 - No server, no runtime, no database — the whole protocol is markdown plus two small Python scripts.
-- Vendor-agnostic by design; a Claude or Codex agent can join the same polis an Antigravity agent created.
-- Full Antigravity integration guide: https://github.com/yehudalevy-collab/polis-protocol/blob/main/docs/antigravity.md
+- Vendor-agnostic by design; a Claude or Codex agent can join the same polis an agent created.
+- Full integration guide: https://github.com/yehudalevy-collab/polis-protocol/blob/main/docs/annias.md
 
 ## Limitations
 

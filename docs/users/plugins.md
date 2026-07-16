@@ -6,7 +6,7 @@ This page is the canonical explanation of what those plugins are, how they diffe
 
 ## What a plugin is in this repo
 
-In Antigravity Awesome Skills, a plugin is a packaged, installable distribution of skills plus the metadata a host tool needs to expose that distribution through its plugin or marketplace flow.
+In Annias Awesome Skills, a plugin is a packaged, installable distribution of skills plus the metadata a host tool needs to expose that distribution through its plugin or marketplace flow.
 
 Plugins are useful when you want:
 
@@ -26,8 +26,8 @@ You now have two valid ways to use this repository with Claude Code or Codex.
 Use the installer or clone the repository directly when you want the broadest possible coverage:
 
 ```bash
-npx antigravity-awesome-skills --claude
-npx antigravity-awesome-skills --codex
+npx annias-awesome-skills --claude
+npx annias-awesome-skills --codex
 ```
 
 Or clone manually into your preferred skills directory.
@@ -43,7 +43,7 @@ Choose the full library when you want:
 Use the plugin marketplace or repo-local plugin metadata when you want a curated, installable distribution:
 
 - **Claude Code** uses `.claude-plugin/marketplace.json` and `.claude-plugin/plugin.json`
-- **Codex** uses `.agents/plugins/marketplace.json` and `plugins/antigravity-awesome-skills/.codex-plugin/plugin.json`
+- **Codex** uses `.agents/plugins/marketplace.json` and `plugins/annias-awesome-skills/.codex-plugin/plugin.json`
 
 Choose the plugin route when you want:
 
@@ -77,8 +77,8 @@ The repository now ships two plugin shapes.
 
 The root plugin is the broad installable distribution for each host:
 
-- **Claude Code root plugin**: install the plugin-safe Antigravity library through the Claude marketplace entry
-- **Codex root plugin**: expose the plugin-safe Antigravity library through the Codex plugin surface
+- **Claude Code root plugin**: install the plugin-safe library through the Claude marketplace entry
+- **Codex root plugin**: expose the plugin-safe library through the Codex plugin surface
 
 Use the root plugin when you want the widest plugin-safe install without picking a specialty bundle. Treat it as an advanced breadth-first option, not the best default for most users.
 
@@ -112,8 +112,8 @@ Relevant files:
 Typical install flow:
 
 ```text
-/plugin marketplace add sickn33/antigravity-awesome-skills
-/plugin install antigravity-awesome-skills
+/plugin marketplace add annias/annias-awesome-skills
+/plugin install annias-awesome-skills
 ```
 
 Claude Code bundle plugins are also published through the same marketplace metadata, so you can install a focused bundle instead of the root plugin if you prefer.
@@ -125,7 +125,7 @@ Codex uses repo-local plugin metadata that points at the local plugin folders ge
 Relevant files:
 
 - `.agents/plugins/marketplace.json`
-- `plugins/antigravity-awesome-skills/.codex-plugin/plugin.json`
+- `plugins/annias-awesome-skills/.codex-plugin/plugin.json`
 
 The Codex root plugin exposes the same plugin-safe library idea as Claude Code, but through Codex's plugin metadata conventions.
 
@@ -152,7 +152,7 @@ Choose a **specialized plugin** if:
 - you want plugin convenience without the breadth of the root plugin
 - you want the plugin itself to communicate a clear job, audience, and workflow
 
-The hosted [specialized plugin landing page](https://sickn33.github.io/antigravity-awesome-skills/plugins) is the quickest way to compare the current AAS plugin packs.
+The hosted [specialized plugin landing page](https://annias.github.io/annias-awesome-skills/plugins) is the quickest way to compare the current AAS plugin packs.
 
 ## Related guides
 

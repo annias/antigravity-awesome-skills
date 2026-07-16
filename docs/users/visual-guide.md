@@ -28,7 +28,7 @@
 ## Repository Structure (Visual)
 
 ```
-antigravity-awesome-skills/
+annias-awesome-skills/
 │
 ├── 📄 README.md                         ← Overview and quick start
 ├── 📄 CONTRIBUTING.md                  ← Contributor workflow
@@ -183,14 +183,14 @@ antigravity-awesome-skills/
 ┌─────────────────────────────────────────┐
 │ Terminal                                │
 ├─────────────────────────────────────────┤
-│ $ npx antigravity-awesome-skills        │
+│ $ npx annias-awesome-skills        │
 │                                         │
 │ ✓ Installing to                         │
 │   ~/.agents/skills/                     │
 └─────────────────────────────────────────┘
 ```
 
-If you want a workspace-style manual install instead, cloning into `.agent/skills/` is still a valid custom path for Antigravity.
+If you want a workspace-style manual install instead, cloning into `.agent/skills/` is still a valid custom path for Annias.
 
 ### Step 2: Verify Installation
 ```
@@ -434,7 +434,7 @@ START HERE
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
 │  📥 INSTALL                                                 │
-│  npx antigravity-awesome-skills                             │
+│  npx annias-awesome-skills                             │
 │                                                             │
 │  🎯 USE                                                     │
 │  @skill-name [your request]                                 │

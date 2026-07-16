@@ -11,19 +11,19 @@ const SKILLS_PATH = path.join(PUBLIC_DIR, 'skills.json');
 
 const HOME_CATALOG_COUNT_FALLBACK = 1525;
 const PRERENDER_SOCIAL_IMAGE = 'social-card.svg';
-const SITE_NAME = 'Antigravity Awesome Skills';
-const REPOSITORY_URL = 'https://github.com/sickn33/antigravity-awesome-skills';
-const HOSTED_CATALOG_URL = 'https://sickn33.github.io/antigravity-awesome-skills/';
+const SITE_NAME = 'Annias Awesome Skills';
+const REPOSITORY_URL = 'https://github.com/annias/annias-awesome-skills';
+const HOSTED_CATALOG_URL = 'https://annias.github.io/annias-awesome-skills/';
 const FAQ_ITEMS = [
   {
-    question: 'What is Antigravity Awesome Skills?',
+    question: 'What is Annias Awesome Skills?',
     answer:
-      'Antigravity Awesome Skills is an installable GitHub library of 1,525+ reusable SKILL.md playbooks for AI coding assistants. It supports Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related hosts through direct skill installs, specialized plugins, bundles, workflows, and a searchable catalog.',
+      'Annias Awesome Skills is an installable GitHub library of 1,525+ reusable SKILL.md playbooks for AI coding assistants. It supports Claude Code, Cursor, Codex CLI, Gemini CLI, and related hosts through direct skill installs, specialized plugins, bundles, workflows, and a searchable catalog.',
   },
   {
-    question: 'How do I install Antigravity Awesome Skills?',
+    question: 'How do I install Annias Awesome Skills?',
     answer:
-      'Install the library with npx antigravity-awesome-skills. Use tool-specific flags such as --codex, --cursor, --gemini, --claude, or --antigravity when you want the installer to target a specific skills directory already used by your assistant runtime.',
+      'Install the library with npx annias-awesome-skills. Use tool-specific flags such as --codex, --cursor, --gemini, --claude, or --agents when you want the installer to target a specific skills directory already used by your assistant runtime.',
   },
   {
     question: 'What are AAS specialized plugins?',
@@ -180,8 +180,8 @@ function safeText(value) {
 function buildHomeMeta({ catalogCount, imageUrl, canonicalUrl }) {
   const visibleCount = Math.max(catalogCount, HOME_CATALOG_COUNT_FALLBACK);
   const formattedCount = visibleCount.toLocaleString('en-US');
-  const title = `Antigravity Awesome Skills | ${formattedCount}+ AI coding skills and plugins`;
-  const description = `Explore ${formattedCount}+ installable agentic skills, specialized plugins, bundles, and workflows for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and other AI coding assistants.`;
+  const title = `Annias Awesome Skills | ${formattedCount}+ AI coding skills and plugins`;
+  const description = `Explore ${formattedCount}+ installable agentic skills, specialized plugins, bundles, and workflows for Claude Code, Cursor, Codex CLI, Gemini CLI, and other AI coding assistants.`;
   const catalogBaseUrl = canonicalUrl.replace(/\/$/, '');
   const sourceCodeEntity = {
     '@context': 'https://schema.org',
@@ -192,7 +192,7 @@ function buildHomeMeta({ catalogCount, imageUrl, canonicalUrl }) {
     sameAs: [
       canonicalUrl,
       HOSTED_CATALOG_URL,
-      'https://www.npmjs.com/package/antigravity-awesome-skills',
+      'https://www.npmjs.com/package/annias-awesome-skills',
     ],
     mainEntityOfPage: canonicalUrl,
     codeRepository: REPOSITORY_URL,
@@ -203,7 +203,7 @@ function buildHomeMeta({ catalogCount, imageUrl, canonicalUrl }) {
       'Codex CLI skills',
       'Cursor skills',
       'Gemini CLI skills',
-      'Antigravity skills',
+      'Annias skills',
       'specialized plugins',
       'SKILL.md',
     ],
@@ -251,7 +251,7 @@ function buildHomeMeta({ catalogCount, imageUrl, canonicalUrl }) {
         url: REPOSITORY_URL,
         sameAs: [
           'https://x.com/AASkills_',
-          'https://www.npmjs.com/package/antigravity-awesome-skills',
+          'https://www.npmjs.com/package/annias-awesome-skills',
           HOSTED_CATALOG_URL,
         ],
       },

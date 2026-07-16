@@ -74,7 +74,7 @@ for (const entry of fs.readdirSync(pluginsRoot, { withFileTypes: true })) {
   }
 
   const relativePluginPath = normalizeRelativePath(path.join("plugins", entry.name));
-  if (entry.name.startsWith("antigravity-bundle-") || entry.name === "antigravity-awesome-skills" || entry.name === "antigravity-awesome-skills-claude") {
+  if (entry.name.startsWith("annias-bundle-") || entry.name === "annias-awesome-skills" || entry.name === "annias-awesome-skills-claude") {
     assert.ok(
       knownPluginPaths.has(relativePluginPath),
       `generated plugin directory should be represented in a marketplace: ${relativePluginPath}`,

@@ -1,14 +1,14 @@
 {
-  "name": "antigravity-awesome-skills",
+  "name": "annias-awesome-skills",
   "interface": {
-    "displayName": "Antigravity Awesome Skills"
+    "displayName": "Annias Awesome Skills"
   },
   "plugins": [
     {
-      "name": "antigravity-awesome-skills",
+      "name": "annias-awesome-skills",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-awesome-skills"
+        "path": "./plugins/annias-awesome-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -20,7 +20,7 @@
       "name": "agyb-essentials",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-essentials"
+        "path": "./plugins/annias-bundle-essentials"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -32,7 +32,7 @@
       "name": "agyb-security-engineer",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-security-engineer"
+        "path": "./plugins/annias-bundle-security-engineer"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -44,7 +44,7 @@
       "name": "agyb-security-developer",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-security-developer"
+        "path": "./plugins/annias-bundle-security-developer"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -56,7 +56,7 @@
       "name": "agyb-web-wizard",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-web-wizard"
+        "path": "./plugins/annias-bundle-web-wizard"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -68,7 +68,7 @@
       "name": "agyb-web-designer",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-web-designer"
+        "path": "./plugins/annias-bundle-web-designer"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -80,7 +80,7 @@
       "name": "agyb-full-stack-developer",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-full-stack-developer"
+        "path": "./plugins/annias-bundle-full-stack-developer"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -92,7 +92,7 @@
       "name": "agyb-agent-architect",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-agent-architect"
+        "path": "./plugins/annias-bundle-agent-architect"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -104,7 +104,7 @@
       "name": "agyb-llm-application-developer",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-llm-application-developer"
+        "path": "./plugins/annias-bundle-llm-application-developer"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -116,7 +116,7 @@
       "name": "agyb-indie-game-dev",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-indie-game-dev"
+        "path": "./plugins/annias-bundle-indie-game-dev"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -128,7 +128,7 @@
       "name": "agyb-python-pro",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-python-pro"
+        "path": "./plugins/annias-bundle-python-pro"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -140,7 +140,7 @@
       "name": "agyb-typescript-javascript",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-typescript-javascript"
+        "path": "./plugins/annias-bundle-typescript-javascript"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -152,7 +152,7 @@
       "name": "agyb-systems-programming",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-systems-programming"
+        "path": "./plugins/annias-bundle-systems-programming"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -164,7 +164,7 @@
       "name": "agyb-startup-founder",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-startup-founder"
+        "path": "./plugins/annias-bundle-startup-founder"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -176,7 +176,7 @@
       "name": "agyb-business-analyst",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-business-analyst"
+        "path": "./plugins/annias-bundle-business-analyst"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -188,7 +188,7 @@
       "name": "agyb-marketing-growth",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-marketing-growth"
+        "path": "./plugins/annias-bundle-marketing-growth"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -200,7 +200,7 @@
       "name": "agyb-devops-cloud",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-devops-cloud"
+        "path": "./plugins/annias-bundle-devops-cloud"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -212,7 +212,7 @@
       "name": "agyb-observability-monitoring",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-observability-monitoring"
+        "path": "./plugins/annias-bundle-observability-monitoring"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -224,7 +224,7 @@
       "name": "agyb-data-analytics",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-data-analytics"
+        "path": "./plugins/annias-bundle-data-analytics"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -236,7 +236,7 @@
       "name": "agyb-data-engineering",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-data-engineering"
+        "path": "./plugins/annias-bundle-data-engineering"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -248,7 +248,7 @@
       "name": "agyb-creative-director",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-creative-director"
+        "path": "./plugins/annias-bundle-creative-director"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -260,7 +260,7 @@
       "name": "agyb-qa-testing",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-qa-testing"
+        "path": "./plugins/annias-bundle-qa-testing"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -272,7 +272,7 @@
       "name": "agyb-aas-web-app-builder",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-aas-web-app-builder"
+        "path": "./plugins/annias-bundle-aas-web-app-builder"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -284,7 +284,7 @@
       "name": "agyb-aas-product-design-studio",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-aas-product-design-studio"
+        "path": "./plugins/annias-bundle-aas-product-design-studio"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -296,7 +296,7 @@
       "name": "agyb-aas-security-engineer",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-aas-security-engineer"
+        "path": "./plugins/annias-bundle-aas-security-engineer"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -308,7 +308,7 @@
       "name": "agyb-aas-secure-app-builder",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-aas-secure-app-builder"
+        "path": "./plugins/annias-bundle-aas-secure-app-builder"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -320,7 +320,7 @@
       "name": "agyb-aas-documents-presentations",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-aas-documents-presentations"
+        "path": "./plugins/annias-bundle-aas-documents-presentations"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -332,7 +332,7 @@
       "name": "agyb-aas-data-analytics",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-aas-data-analytics"
+        "path": "./plugins/annias-bundle-aas-data-analytics"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -344,7 +344,7 @@
       "name": "agyb-aas-agent-mcp-builder",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-aas-agent-mcp-builder"
+        "path": "./plugins/annias-bundle-aas-agent-mcp-builder"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -356,7 +356,7 @@
       "name": "agyb-aas-oss-maintainer",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-aas-oss-maintainer"
+        "path": "./plugins/annias-bundle-aas-oss-maintainer"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -368,7 +368,7 @@
       "name": "agyb-aas-qa-test-automation",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-aas-qa-test-automation"
+        "path": "./plugins/annias-bundle-aas-qa-test-automation"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -380,7 +380,7 @@
       "name": "agyb-aas-devops-cloud",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-aas-devops-cloud"
+        "path": "./plugins/annias-bundle-aas-devops-cloud"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -392,7 +392,7 @@
       "name": "agyb-aas-marketing-seo-growth",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-aas-marketing-seo-growth"
+        "path": "./plugins/annias-bundle-aas-marketing-seo-growth"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -404,7 +404,7 @@
       "name": "agyb-aas-automation-builder",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-aas-automation-builder"
+        "path": "./plugins/annias-bundle-aas-automation-builder"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -416,7 +416,7 @@
       "name": "agyb-aas-observability-ir",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-aas-observability-ir"
+        "path": "./plugins/annias-bundle-aas-observability-ir"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -428,7 +428,7 @@
       "name": "agyb-aas-python-api-builder",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-aas-python-api-builder"
+        "path": "./plugins/annias-bundle-aas-python-api-builder"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -440,7 +440,7 @@
       "name": "agyb-aas-mobile-app-builder",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-aas-mobile-app-builder"
+        "path": "./plugins/annias-bundle-aas-mobile-app-builder"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -452,7 +452,7 @@
       "name": "agyb-mobile-developer",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-mobile-developer"
+        "path": "./plugins/annias-bundle-mobile-developer"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -464,7 +464,7 @@
       "name": "agyb-integration-apis",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-integration-apis"
+        "path": "./plugins/annias-bundle-integration-apis"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -476,7 +476,7 @@
       "name": "agyb-architecture-design",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-architecture-design"
+        "path": "./plugins/annias-bundle-architecture-design"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -488,7 +488,7 @@
       "name": "agyb-ddd-evented-architecture",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-ddd-evented-architecture"
+        "path": "./plugins/annias-bundle-ddd-evented-architecture"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -500,7 +500,7 @@
       "name": "agyb-automation-builder",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-automation-builder"
+        "path": "./plugins/annias-bundle-automation-builder"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -512,7 +512,7 @@
       "name": "agyb-revops-crm-automation",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-revops-crm-automation"
+        "path": "./plugins/annias-bundle-revops-crm-automation"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -524,7 +524,7 @@
       "name": "agyb-commerce-payments",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-commerce-payments"
+        "path": "./plugins/annias-bundle-commerce-payments"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -536,7 +536,7 @@
       "name": "agyb-odoo-erp",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-odoo-erp"
+        "path": "./plugins/annias-bundle-odoo-erp"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -548,7 +548,7 @@
       "name": "agyb-azure-ai-cloud",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-azure-ai-cloud"
+        "path": "./plugins/annias-bundle-azure-ai-cloud"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -560,7 +560,7 @@
       "name": "agyb-expo-react-native",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-expo-react-native"
+        "path": "./plugins/annias-bundle-expo-react-native"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -572,7 +572,7 @@
       "name": "agyb-apple-platform-design",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-apple-platform-design"
+        "path": "./plugins/annias-bundle-apple-platform-design"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -584,7 +584,7 @@
       "name": "agyb-makepad-builder",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-makepad-builder"
+        "path": "./plugins/annias-bundle-makepad-builder"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -596,7 +596,7 @@
       "name": "agyb-seo-specialist",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-seo-specialist"
+        "path": "./plugins/annias-bundle-seo-specialist"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -608,7 +608,7 @@
       "name": "agyb-documents-presentations",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-documents-presentations"
+        "path": "./plugins/annias-bundle-documents-presentations"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -620,7 +620,7 @@
       "name": "agyb-oss-maintainer",
       "source": {
         "source": "local",
-        "path": "./plugins/antigravity-bundle-oss-maintainer"
+        "path": "./plugins/annias-bundle-oss-maintainer"
       },
       "policy": {
         "installation": "AVAILABLE",

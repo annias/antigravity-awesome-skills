@@ -34,9 +34,9 @@
 
 如有行为准则相关问题，请联系：
 
-- 📧 conduct@antigravity-skills.org
-- 🐛 [GitHub Issues](https://github.com/sickn33/antigravity-awesome-skills/issues)
-- 💬 [GitHub Discussions](https://github.com/sickn33/antigravity-awesome-skills/discussions)
+- 📧 conduct@annias-skills.org
+- 🐛 [GitHub Issues](https://github.com/annias/annias-awesome-skills/issues)
+- 💬 [GitHub Discussions](https://github.com/annias/annias-awesome-skills/discussions)
 
 ---
 
@@ -45,7 +45,7 @@
 如果您遇到或目睹了不当行为，请按以下步骤报告：
 
 ### 1. 立即报告
-- 发送邮件至：conduct@antigravity-skills.org
+- 发送邮件至：conduct@annias-skills.org
 - 或创建GitHub Issue，标签：`conduct-report`
 
 ### 2. 报告内容
@@ -136,19 +136,19 @@
 ## 沟通渠道
 
 ### 主要渠道
-- 📋 [GitHub Discussions](https://github.com/sickn33/antigravity-awesome-skills/discussions) - 一般讨论
-- 🐛 [GitHub Issues](https://github.com/sickn33/antigravity-awesome-skills/issues) - 技术问题
-- 📧 [邮件列表](mailto:dev@antigravity-skills.org) - 开发讨论
+- 📋 [GitHub Discussions](https://github.com/annias/annias-awesome-skills/discussions) - 一般讨论
+- 🐛 [GitHub Issues](https://github.com/annias/annias-awesome-skills/issues) - 技术问题
+- 📧 [邮件列表](mailto:dev@annias-skills.org) - 开发讨论
 
 ### 社交媒体
-- 🐦 [Twitter](https://twitter.com/antigravity_ai) - 项目动态
-- 💬 [Discord](https://discord.gg/antigravity) - 实时聊天
-- 📺 [YouTube](https://youtube.com/c/antigravity) - 教程和演示
+- 🐦 [Twitter](https://twitter.com/annias_ai) - 项目动态
+- 💬 [Discord](https://discord.gg/annias) - 实时聊天
+- 📺 [YouTube](https://youtube.com/c/annias) - 教程和演示
 
 ### 本地社区
-- 🌍 [本地聚会](https://meetup.com/antigravity-skills) - 线下交流
-- 🎓 [学习小组](https://study-groups.antigravity-skills.org) - 协作学习
-- 👥 [贡献者聚会](https://contributors.antigravity-skills.org) - 定期交流
+- 🌍 [本地聚会](https://meetup.com/annias-skills) - 线下交流
+- 🎓 [学习小组](https://study-groups.annias-skills.org) - 协作学习
+- 👥 [贡献者聚会](https://contributors.annias-skills.org) - 定期交流
 
 ---
 
@@ -188,7 +188,7 @@
 
 ### 申诉流程
 如果您对处理结果不满意：
-1. **书面申诉** - 发送邮件至appeals@antigravity-skills.org
+1. **书面申诉** - 发送邮件至appeals@annias-skills.org
 2. **包含详情** - 原始问题和处理结果
 3. **说明理由** - 为什么认为处理不当
 4. **等待审查** - 委员会将在7天内回复

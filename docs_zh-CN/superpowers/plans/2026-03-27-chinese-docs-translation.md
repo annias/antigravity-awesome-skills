@@ -70,7 +70,7 @@ Create `docs_zh-CN/translation-status.md`:
 - [ ] users/agent-overload-recovery.md
 - [ ] users/windows-truncation-recovery.md
 - [ ] users/ai-agent-skills.md
-- [ ] users/antigravity-awesome-skills-vs-awesome-claude-skills.md
+- [ ] users/annias-awesome-skills-vs-awesome-claude-skills.md
 - [ ] users/best-claude-code-skills-github.md
 - [ ] users/best-cursor-skills-github.md
 - [ ] users/kiro-integration.md
@@ -717,7 +717,7 @@ Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>"
 - users/agent-overload-recovery.md
 - users/windows-truncation-recovery.md
 - users/ai-agent-skills.md
-- users/antigravity-awesome-skills-vs-awesome-claude-skills.md
+- users/annias-awesome-skills-vs-awesome-claude-skills.md
 - users/best-claude-code-skills-github.md
 - users/best-cursor-skills-github.md
 - users/kiro-integration.md

@@ -34,22 +34,22 @@ const conceptCards = [
 const integrationGuides = [
   {
     name: 'Claude Code',
-    href: 'https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/claude-code-skills.md',
+    href: 'https://github.com/annias/annias-awesome-skills/blob/main/docs/users/claude-code-skills.md',
     body: 'Install paths, starter prompts, plugin marketplace flow, and first skills to try.',
   },
   {
     name: 'Cursor',
-    href: 'https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/cursor-skills.md',
+    href: 'https://github.com/annias/annias-awesome-skills/blob/main/docs/users/cursor-skills.md',
     body: 'A practical guide for chat-first UI, frontend, and full-stack workflows in Cursor.',
   },
   {
     name: 'Codex CLI',
-    href: 'https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/codex-cli-skills.md',
-    body: 'How to use Antigravity Awesome Skills with Codex CLI for planning, implementation, testing, and review.',
+    href: 'https://github.com/annias/annias-awesome-skills/blob/main/docs/users/codex-cli-skills.md',
+    body: 'How to use Annias Awesome Skills with Codex CLI for planning, implementation, testing, and review.',
   },
   {
     name: 'Gemini CLI',
-    href: 'https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/gemini-cli-skills.md',
+    href: 'https://github.com/annias/annias-awesome-skills/blob/main/docs/users/gemini-cli-skills.md',
     body: 'A broad starting point for engineering, agent systems, integrations, and applied AI workflows.',
   },
 ] as const;
@@ -68,10 +68,10 @@ export function Home(): React.ReactElement {
   const [syncing, setSyncing] = useState(false);
   const [syncMsg, setSyncMsg] = useState<SyncMessage | null>(null);
   const [commandCopied, setCommandCopied] = useState(false);
-  const installCommand = 'npx antigravity-awesome-skills';
-  const repositoryLink = 'https://github.com/sickn33/antigravity-awesome-skills';
-  const docsLink = 'https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/usage.md';
-  const installLink = 'https://www.npmjs.com/package/antigravity-awesome-skills';
+  const installCommand = 'npx annias-awesome-skills';
+  const repositoryLink = 'https://github.com/annias/annias-awesome-skills';
+  const docsLink = 'https://github.com/annias/annias-awesome-skills/blob/main/docs/users/usage.md';
+  const installLink = 'https://www.npmjs.com/package/annias-awesome-skills';
   const faqItems = getHomeFaqItems();
   const catalogCountLabel = skills.length > 0 ? skills.length.toLocaleString('en-US') : 'installable';
 
@@ -173,7 +173,7 @@ export function Home(): React.ReactElement {
             Build agent workflows with production-grade skill playbooks
           </h2>
           <p className="mt-4 max-w-4xl text-sm leading-relaxed text-slate-600 sm:text-base dark:text-slate-300">
-            Antigravity Awesome Skills is a curated catalog for the official GitHub repository of installable
+            Annias Awesome Skills is a curated catalog for the official GitHub repository of installable
             capabilities for AI assistants. Search fast, shortlist by category, and launch your first tested
             workflow from one focused workspace.
           </p>
@@ -387,7 +387,7 @@ export function Home(): React.ReactElement {
           </div>
           <div className="mt-5 flex flex-wrap gap-3">
             <a
-              href="https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/skills-vs-mcp-tools.md"
+              href="https://github.com/annias/annias-awesome-skills/blob/main/docs/users/skills-vs-mcp-tools.md"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center justify-center rounded-lg border border-slate-300 px-4 py-2.5 text-sm font-semibold text-slate-800 transition-colors hover:bg-slate-100 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
@@ -395,7 +395,7 @@ export function Home(): React.ReactElement {
               Read skills vs MCP/tools
             </a>
             <a
-              href="https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md"
+              href="https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center justify-center rounded-lg border border-slate-300 px-4 py-2.5 text-sm font-semibold text-slate-800 transition-colors hover:bg-slate-100 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
@@ -403,7 +403,7 @@ export function Home(): React.ReactElement {
               Browse bundles
             </a>
             <a
-              href="https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md"
+              href="https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center justify-center rounded-lg border border-slate-300 px-4 py-2.5 text-sm font-semibold text-slate-800 transition-colors hover:bg-slate-100 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
@@ -455,7 +455,7 @@ export function Home(): React.ReactElement {
             ))}
           </div>
           <a
-            href="https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/faq.md"
+            href="https://github.com/annias/annias-awesome-skills/blob/main/docs/users/faq.md"
             target="_blank"
             rel="noreferrer"
             className="mt-5 inline-flex items-center justify-center rounded-lg border border-slate-300 px-4 py-2.5 text-sm font-semibold text-slate-800 transition-colors hover:bg-slate-100 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"

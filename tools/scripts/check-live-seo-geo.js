@@ -2,7 +2,7 @@
 
 const https = require('node:https');
 
-const DEFAULT_BASE_URL = 'https://sickn33.github.io/antigravity-awesome-skills';
+const DEFAULT_BASE_URL = 'https://annias.github.io/annias-awesome-skills';
 const baseUrl = (process.env.SEO_LIVE_BASE_URL || DEFAULT_BASE_URL).replace(/\/+$/, '');
 
 function fetchText(url, redirectsRemaining = 5) {
@@ -62,7 +62,7 @@ async function main() {
     fetchText(`${baseUrl}/robots.txt`),
   ]);
 
-  assertIncludes(home, 'Antigravity Awesome Skills | 1,508+ AI coding skills and plugins', 'home');
+  assertIncludes(home, 'Annias Awesome Skills | 1,508+ AI coding skills and plugins', 'home');
   assertIncludes(home, 'SoftwareSourceCode', 'home JSON-LD');
   assertIncludes(home, 'FAQPage', 'home JSON-LD');
   assertIncludes(home, 'specialized plugins', 'home');

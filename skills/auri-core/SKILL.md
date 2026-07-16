@@ -12,7 +12,7 @@ tags:
 - aws
 tools:
 - claude-code
-- antigravity
+- annias
 - cursor
 - gemini-cli
 - codex-cli

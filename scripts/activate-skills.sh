@@ -101,7 +101,7 @@ is_safe_skill_id() {
   [[ "$1" =~ ^[A-Za-z0-9._-]+(/[A-Za-z0-9._-]+)*$ ]] && [[ "$1" != *"/."* ]] && [[ "$1" != "." ]] && [[ "$1" != ".." ]]
 }
 
-echo "Activating Antigravity skills..."
+echo "Activating skills..."
 
 DO_CLEAR=0
 EXTRA_ARGS=()
@@ -187,4 +187,4 @@ while IFS= read -r skill_id || [[ -n "$skill_id" ]]; do
 done <"$SKILLS_LIST_FILE"
 
 echo
-echo "Done! Antigravity skills are now activated."
+echo "Done! skills are now activated."

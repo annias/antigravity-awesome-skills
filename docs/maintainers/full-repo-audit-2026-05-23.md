@@ -2,7 +2,7 @@
 
 Status: complete
 
-This audit tracks the current deep pass over the repository for bugs, inconsistencies, drift, documentation issues, and release/process risks. The working tree was checked from `/Users/nicco/Projects/antigravity-awesome-skills` on `main`.
+This audit tracks the current deep pass over the repository for bugs, inconsistencies, drift, documentation issues, and release/process risks. The working tree was checked from `/Users/nicco/Projects/annias-awesome-skills` on `main`.
 
 Patch follow-up:
 
@@ -82,10 +82,10 @@ Observed counts:
 - Plugin mirror `SKILL.md` files: 3094 matched canonical sources byte-for-byte, 0 drift
 - Global tracked skill frontmatter: 4559 `SKILL.md` files parsed, 0 frontmatter errors, 0 missing frontmatter, 0 missing `name`
 - Disabled source skills: 34 `skills/.disabled/*/SKILL.md` files present and included in the global frontmatter parse
-- Full plugin file drift: 11561 files checked in `plugins/antigravity-awesome-skills*`, 0 missing canonical files, 0 drift
-- Bundle plugin file drift: 950 files checked in `plugins/antigravity-bundle-*`, 0 missing canonical files, 0 drift
+- Full plugin file drift: 11561 files checked in `plugins/annias-awesome-skills*`, 0 missing canonical files, 0 drift
+- Bundle plugin file drift: 950 files checked in `plugins/annias-bundle-*`, 0 missing canonical files, 0 drift
 - Plugin manifests: 76 manifests parsed, 0 missing name/version/reference errors
-- Maintainer audit: repository `sickn33/antigravity-awesome-skills`, version `11.5.0`, skills `1,465+`, warning budget `0/135`, consistency clean; tracked working tree clean, but the untracked audit report makes the full gate fail until added/removed
+- Maintainer audit: repository `annias/annias-awesome-skills`, version `11.5.0`, skills `1,465+`, warning budget `0/135`, consistency clean; tracked working tree clean, but the untracked audit report makes the full gate fail until added/removed
 - Stale-claims checker: no stale claims detected in active docs
 - Editorial bundles: manifest and generated doc are in sync
 - README credits check: no changed skill files detected
@@ -106,7 +106,7 @@ Failed / issue-producing checks:
 - File: `apps/web-app/refresh-skills-plugin.js`
 - Lines: `220-261`
 - Evidence: `syncWithArchive()` downloads GitHub tar/zip archives and extracts them with `tar -xzf`, `Expand-Archive`, or `unzip -o` directly into `update_temp`.
-- Risk: an archive containing path traversal entries or malicious symlinks can write outside the intended extraction root before the code checks for `antigravity-awesome-skills-main/skills`.
+- Risk: an archive containing path traversal entries or malicious symlinks can write outside the intended extraction root before the code checks for `annias-awesome-skills-main/skills`.
 - Current tests: `apps/web-app/src/__tests__/refresh-skills-plugin.security.test.js` covers loopback/auth and fast-forward behavior but does not cover archive extraction safety.
 - Suggested fix: replace shell extraction with a safe extraction helper that rejects absolute paths, `..` segments, unsafe symlinks, and post-extraction realpaths outside `update_temp`; add tar/zip regression tests.
 

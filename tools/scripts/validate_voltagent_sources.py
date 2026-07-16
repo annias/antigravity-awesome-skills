@@ -21,7 +21,7 @@ def check_url_accessible(url: str, timeout: int = 10) -> tuple[bool, Optional[st
     """Check if URL is accessible."""
     try:
         req = urllib.request.Request(url)
-        req.add_header('User-Agent', 'Mozilla/5.0 (compatible; AntigravitySkillsValidator/1.0)')
+        req.add_header('User-Agent', 'Mozilla/5.0 (compatible; AnniasSkillsValidator/1.0)')
         with urllib.request.urlopen(req, timeout=timeout) as response:
             return True, None
     except urllib.error.HTTPError as e:

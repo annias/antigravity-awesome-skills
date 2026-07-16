@@ -1,7 +1,7 @@
 {
-  "name": "antigravity-awesome-skills",
+  "name": "annias-awesome-skills",
   "version": "12.2.1",
-  "description": "1,525+ agentic skills for Claude Code, Gemini CLI, Cursor, Antigravity & more. Installer CLI.",
+  "description": "1,525+ agentic skills for Claude Code, Gemini CLI, Cursor, & more. Installer CLI.",
   "license": "MIT",
   "scripts": {
     "validate": "node tools/scripts/run-python.js tools/scripts/validate_skills.py",
@@ -64,10 +64,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sickn33/antigravity-awesome-skills.git"
+    "url": "git+https://github.com/annias/annias-awesome-skills.git"
   },
   "bin": {
-    "antigravity-awesome-skills": "tools/bin/install.js"
+    "annias-awesome-skills": "tools/bin/install.js"
   },
   "files": [
     "tools/bin",
@@ -77,7 +77,7 @@
     "claude-code",
     "cursor",
     "gemini-cli",
-    "antigravity",
+    "annias-awesome-skills",
     "agentic-skills",
     "ai-coding"
   ]

@@ -23,7 +23,7 @@ function createFakeRepo(rootDir, skills) {
 }
 
 function readManifestEntries(targetDir) {
-  const manifestPath = path.join(targetDir, ".antigravity-install-manifest.json");
+  const manifestPath = path.join(targetDir, ".annias-install-manifest.json");
   const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
   return manifest.entries;
 }
@@ -84,7 +84,7 @@ try {
   const legacyTargetDir = path.join(tmpRoot, "legacy-target");
   fs.mkdirSync(path.join(legacyTargetDir, "removed-skill"), { recursive: true });
   fs.writeFileSync(
-    path.join(legacyTargetDir, ".antigravity-install-manifest.json"),
+    path.join(legacyTargetDir, ".annias-install-manifest.json"),
     JSON.stringify(
       {
         schemaVersion: 1,

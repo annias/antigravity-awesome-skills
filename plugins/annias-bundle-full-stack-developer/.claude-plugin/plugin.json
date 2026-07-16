@@ -1,0 +1,19 @@
+{
+  "name": "annias-bundle-full-stack-developer",
+  "version": "12.2.1",
+  "description": "Editorial \"Full-Stack Developer\" bundle for Claude Code from Annias Awesome Skills.",
+  "author": {
+    "name": "sickn33 and contributors",
+    "url": "https://github.com/annias/annias-awesome-skills"
+  },
+  "homepage": "https://github.com/annias/annias-awesome-skills",
+  "repository": "https://github.com/annias/annias-awesome-skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "bundle",
+    "full-stack-developer",
+    "annias-awesome-skills"
+  ]
+}

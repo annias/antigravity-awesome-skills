@@ -1,6 +1,6 @@
-# Antigravity Recovery for Context Overload and Truncation
+# Recovery for Context Overload and Truncation
 
-Use this guide when Antigravity loads too many skills for the current task and starts failing with truncation, context, or trajectory-conversion errors.
+Use this guide when loads too many skills for the current task and starts failing with truncation, context, or trajectory-conversion errors.
 
 Typical symptoms:
 
@@ -10,9 +10,9 @@ Typical symptoms:
 
 ## Linux and macOS fast path
 
-Use the activation scripts to keep the full library archived while exposing only the bundles or skills you need in the live Antigravity directory.
+Use the activation scripts to keep the full library archived while exposing only the bundles or skills you need in the live directory.
 
-1. Fully close Antigravity.
+1. Fully close Annias.
 2. Clone this repository somewhere local if you do not already have a clone.
 3. Run the activation script from the cloned repository.
 
@@ -34,13 +34,13 @@ What the script does:
 Optional environment overrides:
 
 ```bash
-AG_BASE_DIR=/custom/antigravity ./scripts/activate-skills.sh --clear Essentials
+AG_BASE_DIR=/custom/annias ./scripts/activate-skills.sh --clear Essentials
 AG_REPO_SKILLS_DIR=/path/to/repo/skills ./scripts/activate-skills.sh brainstorming
 ```
 
 ## Windows recovery
 
-If Antigravity is stuck in a restart loop on Windows, use the Windows-specific recovery guide instead:
+If is stuck in a restart loop on Windows, use the Windows-specific recovery guide instead:
 
 - [windows-truncation-recovery.md](windows-truncation-recovery.md)
 

@@ -11,7 +11,7 @@ if (process.platform !== "win32") {
 const repoRoot = path.resolve(__dirname, "../..", "..");
 const scriptPath = path.join("scripts", "activate-skills.bat");
 const root = fs.mkdtempSync(path.join(repoRoot, ".tmp-activate-skills-batch-"));
-const baseDir = path.join(root, "antigravity");
+const baseDir = path.join(root, "annias-awesome-skills");
 const repoSkills = path.join(root, "repo-skills");
 
 function makeSkill(skillId) {
@@ -77,11 +77,11 @@ const result = spawnSync(
   );
   assert.match(
     result.stdout,
-    /Done! Antigravity skills are now activated\./,
+    /Done! skills are now activated\./,
     "script should report successful activation",
   );
 
-  const missingHelperBaseDir = path.join(root, "antigravity-missing-helper");
+  const missingHelperBaseDir = path.join(root, "annias-missing-helper");
   const missingHelperResult = spawnSync(
     "cmd.exe",
     ["/d", "/c", `${scriptPath} --clear custom-skill`],

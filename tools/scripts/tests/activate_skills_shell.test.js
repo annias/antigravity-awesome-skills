@@ -12,7 +12,7 @@ const repoRoot = path.resolve(__dirname, "../..", "..");
 const scriptPath = path.posix.join("scripts", "activate-skills.sh");
 
 const root = fs.mkdtempSync(path.join(repoRoot, ".tmp-activate-skills-shell-"));
-const baseDir = path.join(root, "antigravity");
+const baseDir = path.join(root, "annias-awesome-skills");
 const repoSkills = path.join(root, "repo-skills");
 const outsideDir = path.join(root, "outside-skill-root");
 
@@ -72,7 +72,7 @@ try {
   );
   assert.match(
     result.stdout,
-    /Done! Antigravity skills are now activated\./,
+    /Done! skills are now activated\./,
     "script should report successful activation",
   );
 } finally {

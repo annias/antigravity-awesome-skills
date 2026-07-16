@@ -23,7 +23,7 @@ def _read_json(path: Path):
 def _package_expected_description(metadata: dict) -> str:
     return (
         f"{metadata['total_skills_label']} agentic skills for Claude Code, Gemini CLI, "
-        "Cursor, Antigravity & more. Installer CLI."
+        "Cursor, & more. Installer CLI."
     )
 
 

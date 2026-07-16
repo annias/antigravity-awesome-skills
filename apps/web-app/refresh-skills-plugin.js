@@ -13,13 +13,13 @@ const require = createRequire(import.meta.url);
 const { resolveSafeRealPath } = require('../../tools/lib/symlink-safety');
 const ROOT_DIR = path.resolve(__dirname, '..', '..');
 
-const UPSTREAM_REPO = 'https://github.com/sickn33/antigravity-awesome-skills.git';
+const UPSTREAM_REPO = 'https://github.com/annias/annias-awesome-skills.git';
 const UPSTREAM_NAME = 'upstream';
-const REPO_TAR_URL = 'https://github.com/sickn33/antigravity-awesome-skills/archive/refs/heads/main.tar.gz';
-const REPO_ZIP_URL = 'https://github.com/sickn33/antigravity-awesome-skills/archive/refs/heads/main.zip';
-const COMMITS_API_URL = 'https://api.github.com/repos/sickn33/antigravity-awesome-skills/commits/main';
+const REPO_TAR_URL = 'https://github.com/annias/annias-awesome-skills/archive/refs/heads/main.tar.gz';
+const REPO_ZIP_URL = 'https://github.com/annias/annias-awesome-skills/archive/refs/heads/main.zip';
+const COMMITS_API_URL = 'https://api.github.com/repos/annias/annias-awesome-skills/commits/main';
 const SHA_FILE = path.join(__dirname, '.last-sync-sha');
-const ARCHIVE_ROOT = 'antigravity-awesome-skills-main/';
+const ARCHIVE_ROOT = 'annias-awesome-skills-main/';
 
 // ─── Utility helpers ───
 
@@ -353,7 +353,7 @@ function downloadFile(url, dest) {
     return new Promise((resolve, reject) => {
         const file = fs.createWriteStream(dest);
         const request = (url) => {
-            https.get(url, { headers: { 'User-Agent': 'antigravity-skills-app' } }, (res) => {
+            https.get(url, { headers: { 'User-Agent': 'annias-skills-app' } }, (res) => {
                 if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
                     request(res.headers.location);
                     return;
@@ -374,7 +374,7 @@ function downloadFile(url, dest) {
 function checkRemoteSha() {
     return new Promise((resolve) => {
         https.get(COMMITS_API_URL, {
-            headers: { 'User-Agent': 'antigravity-skills-app', 'Accept': 'application/vnd.github.v3+json' },
+            headers: { 'User-Agent': 'annias-skills-app', 'Accept': 'application/vnd.github.v3+json' },
         }, (res) => {
             let body = '';
             res.on('data', (chunk) => { body += chunk; });
@@ -475,7 +475,7 @@ async function syncWithArchive() {
         }
 
         // 3. Move skills to root
-        const extractedRoot = path.join(tempDir, 'antigravity-awesome-skills-main');
+        const extractedRoot = path.join(tempDir, 'annias-awesome-skills-main');
         const srcSkills = path.join(extractedRoot, 'skills');
         const srcIndex = path.join(extractedRoot, 'skills_index.json');
         const destSkills = path.join(ROOT_DIR, 'skills');

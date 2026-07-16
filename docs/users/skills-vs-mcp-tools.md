@@ -1,6 +1,6 @@
 # Skills vs MCP Tools
 
-If you are trying to understand the difference between **Antigravity skills** and **MCP tools**, the short version is:
+If you are trying to understand the difference between **Annias skills** and **MCP tools**, the short version is:
 
 - **Skills** are reusable `SKILL.md` playbooks that tell an AI assistant how to execute a workflow.
 - **MCP tools** are integrations or callable capabilities that let the assistant interact with external systems.
@@ -70,7 +70,7 @@ Use **both** when:
 
 ## How this repo fits in
 
-Antigravity Awesome Skills is primarily a **skill library**:
+Annias Awesome Skills is primarily a **skill library**:
 
 - installable `SKILL.md` playbooks
 - bundles for role-based starting points

@@ -41,7 +41,7 @@ for (const candidate of candidates) {
     `candidate ${candidate.id} bundle skills should match the candidate manifest`,
   );
 
-  const pluginRoot = path.join(projectRoot, "plugins", `antigravity-bundle-${candidate.id}`);
+  const pluginRoot = path.join(projectRoot, "plugins", `annias-bundle-${candidate.id}`);
   assert.ok(fs.existsSync(pluginRoot), `candidate ${candidate.id} plugin directory should exist`);
   assert.ok(
     fs.existsSync(path.join(pluginRoot, ".codex-plugin", "plugin.json")),
@@ -56,7 +56,7 @@ for (const candidate of candidates) {
     `candidate ${candidate.id} should be listed in the Codex marketplace`,
   );
   assert.ok(
-    claudePluginNames.has(`antigravity-bundle-${candidate.id}`),
+    claudePluginNames.has(`annias-bundle-${candidate.id}`),
     `candidate ${candidate.id} should be listed in the Claude marketplace`,
   );
 

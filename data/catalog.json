@@ -1553,7 +1553,7 @@
     {
       "id": "analyze-project",
       "name": "analyze-project",
-      "description": "Forensic root cause analyzer for Antigravity sessions. Classifies scope deltas, rework patterns, root causes, hotspots, and auto-improves prompts/health.",
+      "description": "Forensic root cause analyzer for sessions. Classifies scope deltas, rework patterns, root causes, hotspots, and auto-improves prompts/health.",
       "category": "architecture",
       "tags": [
         "analysis",
@@ -1575,7 +1575,7 @@
         "root",
         "cause",
         "analyzer",
-        "antigravity"
+        "annias-awesome-skills"
       ],
       "path": "skills/analyze-project/SKILL.md"
     },
@@ -1850,9 +1850,9 @@
       "path": "skills/anti-sycophancy/SKILL.md"
     },
     {
-      "id": "antigravity-agent-manager",
-      "name": "antigravity-agent-manager",
-      "description": "Configure and orchestrate parallel agents using the standalone Antigravity 2.0 Agent Manager and Antigravity IDE.",
+      "id": "annias-agent-manager",
+      "name": "annias-agent-manager",
+      "description": "Configure and orchestrate parallel agents using the standalone 2.0 Agent Manager and AI IDE.",
       "category": "workflow",
       "tags": [
         "agent-manager",
@@ -1865,7 +1865,7 @@
         "orchestration",
         "multi-agent",
         "setup",
-        "antigravity",
+        "annias-awesome-skills",
         "agent",
         "manager",
         "configure",
@@ -1874,18 +1874,18 @@
         "agents",
         "standalone"
       ],
-      "path": "skills/antigravity-agent-manager/SKILL.md"
+      "path": "skills/annias-agent-manager/SKILL.md"
     },
     {
-      "id": "antigravity-design-expert",
-      "name": "antigravity-design-expert",
+      "id": "annias-design-expert",
+      "name": "annias-design-expert",
       "description": "Core UI/UX engineering skill for building highly interactive, spatial, weightless, and glassmorphism-based web interfaces using GSAP and 3D CSS.",
       "category": "general",
       "tags": [
-        "antigravity"
+        "annias-awesome-skills"
       ],
       "triggers": [
-        "antigravity",
+        "annias-awesome-skills",
         "core",
         "ui",
         "ux",
@@ -1898,11 +1898,11 @@
         "weightless",
         "glassmorphism"
       ],
-      "path": "skills/antigravity-design-expert/SKILL.md"
+      "path": "skills/annias-design-expert/SKILL.md"
     },
     {
-      "id": "antigravity-skill-orchestrator",
-      "name": "antigravity-skill-orchestrator",
+      "id": "annias-skill-orchestrator",
+      "name": "annias-skill-orchestrator",
       "description": "A meta-skill that understands task requirements, dynamically selects appropriate skills, tracks successful skill combinations using agent-memory-mcp, and prevents skill overuse for simple tasks.",
       "category": "workflow",
       "tags": [
@@ -1916,7 +1916,7 @@
         "meta-skill",
         "agent-memory",
         "task-evaluation",
-        "antigravity",
+        "annias-awesome-skills",
         "skill",
         "orchestrator",
         "meta",
@@ -1925,18 +1925,18 @@
         "requirements",
         "dynamically"
       ],
-      "path": "skills/antigravity-skill-orchestrator/SKILL.md"
+      "path": "skills/annias-skill-orchestrator/SKILL.md"
     },
     {
-      "id": "antigravity-workflows",
-      "name": "antigravity-workflows",
-      "description": "Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA.",
+      "id": "annias-workflows",
+      "name": "annias-workflows",
+      "description": "Orchestrate multiple skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA.",
       "category": "security",
       "tags": [
-        "antigravity"
+        "annias-awesome-skills"
       ],
       "triggers": [
-        "antigravity",
+        "annias-awesome-skills",
         "orchestrate",
         "multiple",
         "skills",
@@ -1949,7 +1949,7 @@
         "audits",
         "ai"
       ],
-      "path": "skills/antigravity-workflows/SKILL.md"
+      "path": "skills/annias-workflows/SKILL.md"
     },
     {
       "id": "aomi-transact",
@@ -7174,7 +7174,7 @@
     {
       "id": "blockrun",
       "name": "blockrun",
-      "description": "BlockRun works with Claude Code and Google Antigravity.",
+      "description": "BlockRun works with Claude Code and Google Annias.",
       "category": "general",
       "tags": [
         "blockrun"
@@ -7185,7 +7185,7 @@
         "claude",
         "code",
         "google",
-        "antigravity"
+        "annias-awesome-skills"
       ],
       "path": "skills/blockrun/SKILL.md"
     },
@@ -32722,7 +32722,7 @@
     {
       "id": "subagent-orchestrator",
       "name": "subagent-orchestrator",
-      "description": "Coordinate quota-aware parallel subagents for large, multi-file Antigravity tasks.",
+      "description": "Coordinate quota-aware parallel subagents for large, multi-file tasks.",
       "category": "workflow",
       "tags": [
         "subagents",

@@ -13,14 +13,14 @@ Internal links:
 
 External links:
 - Sample only; not fetched by this local validator.
-- https://api.star-history.com/image?repos=sickn33/antigravity-awesome-skills&style=landscape1
-- https://api.star-history.com/svg?repos=sickn33/antigravity-awesome-skills&type=date&legend=top-left
+- https://api.star-history.com/image?repos=annias/annias-awesome-skills&style=landscape1
+- https://api.star-history.com/svg?repos=annias/annias-awesome-skills&type=date&legend=top-left
 - https://aws.amazon.com/blogs/publicsector/transform-devops-practice-with-kiro-ai-powered-agents/
 - https://book.hacktricks.xyz/
 - https://buymeacoffee.com/sickn33
 - https://contrib.rocks
-- https://contributors.antigravity-skills.org
-- https://discord.gg/antigravity
+- https://contributors.annias-skills.org
+- https://discord.gg/annias
 - https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request
 - https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors
 - https://git-scm.com/book/en/v2/Getting-Started-Git-Basics

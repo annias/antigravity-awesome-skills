@@ -1,7 +1,7 @@
 # 最终验证报告 - 中文文档翻译
 
 **生成时间:** 2026-03-27
-**项目:** antigravity-awesome-skills 中文文档翻译
+**项目:** annias-awesome-skills 中文文档翻译
 **版本:** V8.10.0（历史翻译验证快照；当前仓库版本见 `docs_zh-CN/README.md`）
 
 ---
@@ -114,7 +114,7 @@
 **示例:**
 ```bash
 # 命令示例保持英文
-npx antigravity-awesome-skills
+npx annias-awesome-skills
 ./scripts/activate-skills.sh --clear Essentials
 ```
 
@@ -277,7 +277,7 @@ npx antigravity-awesome-skills
 
 ## 结论
 
-antigravity-awesome-skills 项目的中文文档翻译已成功完成。所有验证标准均已满足，翻译质量达到生产就绪标准。文档现在可以供中国用户使用，为中文开发者社区提供完整的 Antigravity 技能库使用指南。
+annias-awesome-skills 项目的中文文档翻译已成功完成。所有验证标准均已满足，翻译质量达到生产就绪标准。文档现在可以供中国用户使用，为中文开发者社区提供完整的 技能库使用指南。
 
 **最终状态:** ✅ **完成且准备好创建 Pull Request**
 

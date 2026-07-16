@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to the **Antigravity Awesome Skills** collection are documented in this file.
+All notable changes to the **Annias Awesome Skills** collection are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
@@ -29,11 +29,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [12.2.0] - 2026-06-07 - "Education, Media, Workflow, and Creative Skill Intake"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills --help`
+- Install: `npx annias-awesome-skills --help`
 - Choose your tool: [README.md#choose-your-tool](README.md#choose-your-tool)
 - Best skills by tool: [README.md#best-skills-by-tool](README.md#best-skills-by-tool)
 - Bundles: [docs/users/bundles.md](docs/users/bundles.md)
@@ -67,11 +67,11 @@ This release packages the June 7 maintainer batch: accepted community PRs for ed
 
 ## [12.1.0] - 2026-06-05 - "Community Skills, Release Sync, and Dependency Hardening"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills --help`
+- Install: `npx annias-awesome-skills --help`
 - Choose your tool: [README.md#choose-your-tool](README.md#choose-your-tool)
 - Best skills by tool: [README.md#best-skills-by-tool](README.md#best-skills-by-tool)
 - Bundles: [docs/users/bundles.md](docs/users/bundles.md)
@@ -81,7 +81,7 @@ This release packages the June 5 maintainer batch: accepted community PRs, depen
 
 ## New Skills
 
-- **antigravity-agent-manager** - agent lifecycle and project orchestration guidance for Antigravity workflows.
+- **annias-agent-manager** - agent lifecycle and project orchestration guidance for workflows.
 - **linkedin-content-generator** - LinkedIn post, carousel, newsletter, and content-calendar generation helpers.
 - **event-staffing-ordering** - staffing-order workflow guidance for event operations.
 - **event-staffing-compliance** - compliance review guidance for event staffing workflows.
@@ -104,7 +104,7 @@ This release packages the June 5 maintainer batch: accepted community PRs, depen
 
 ## Credits
 
-- **[@PzocikErwin](https://github.com/PzocikErwin)** for PR #652 (`antigravity-agent-manager`).
+- **[@PzocikErwin](https://github.com/PzocikErwin)** for PR #652 (`annias-agent-manager`).
 - **[@sarveshtalele](https://github.com/sarveshtalele)** for PR #654 (`linkedin-content-generator`).
 - **[@kissmyabs32](https://github.com/kissmyabs32)** for PR #655 (`event-staffing-ordering`, `event-staffing-compliance`).
 - **[@2slides](https://github.com/2slides)** for PR #656 (`2slides-ppt-generator`).
@@ -114,11 +114,11 @@ This release packages the June 5 maintainer batch: accepted community PRs, depen
 
 ## [12.0.0] - 2026-06-03 - "Specialized Plugins, Discovery SEO, and Community Skill Intake"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills --help`
+- Install: `npx annias-awesome-skills --help`
 - Choose your tool: [README.md#choose-your-tool](README.md#choose-your-tool)
 - Best skills by tool: [README.md#best-skills-by-tool](README.md#best-skills-by-tool)
 - Bundles: [docs/users/bundles.md](docs/users/bundles.md)
@@ -163,11 +163,11 @@ This release packages the June 2-3 maintainer work into a major catalog update: 
 
 ## [11.11.0] - 2026-06-02 - "User Thoughts, MiniMax M3, and Registry Hardening"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills --help`
+- Install: `npx annias-awesome-skills --help`
 - Choose your tool: [README.md#choose-your-tool](README.md#choose-your-tool)
 - Best skills by tool: [README.md#best-skills-by-tool](README.md#best-skills-by-tool)
 - Bundles: [docs/users/bundles.md](docs/users/bundles.md)
@@ -184,7 +184,7 @@ This release merges the accepted maintainer batch from June 2, adds project-loca
 - Updated `mmx-cli` documentation so chat workflows point at MiniMax-M3 as the default model.
 - Added batch output guidance across the accepted SEO and production QA skill updates.
 - Normalized `user-thoughts` source metadata, README attribution, runtime templates, references, scripts, and plugin mirrors in English for public catalog use.
-- Fixed `agy` installer guidance so Antigravity installs use directory-based skill layouts instead of flat markdown files.
+- Fixed `agy` installer guidance so installs use directory-based skill layouts instead of flat markdown files.
 - Bumped the web app Vitest stack to close the critical Dependabot alerts and verified `npm audit` returns zero open vulnerabilities.
 - Synced generated registry, catalog, compatibility reports, plugin mirrors, docs, sitemap, and web assets for the 1,494-skill catalog.
 
@@ -196,11 +196,11 @@ This release merges the accepted maintainer batch from June 2, adds project-loca
 
 ## [11.10.0] - 2026-05-31 - "SEO, Yield, YouTube, and Release Hardening"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills --help`
+- Install: `npx annias-awesome-skills --help`
 - Choose your tool: [README.md#choose-your-tool](README.md#choose-your-tool)
 - Best skills by tool: [README.md#best-skills-by-tool](README.md#best-skills-by-tool)
 - Bundles: [docs/users/bundles.md](docs/users/bundles.md)
@@ -235,11 +235,11 @@ This release merges the accepted community PRs from the current maintainer batch
 
 ## [11.9.0] - 2026-05-30 - "Container, CI, Market, and Wallet Guard Skills"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills --help`
+- Install: `npx annias-awesome-skills --help`
 - Choose your tool: [README.md#choose-your-tool](README.md#choose-your-tool)
 - Best skills by tool: [README.md#best-skills-by-tool](README.md#best-skills-by-tool)
 - Bundles: [docs/users/bundles.md](docs/users/bundles.md)
@@ -267,11 +267,11 @@ This release merges the accepted community and official skill PRs from the curre
 
 ## [11.8.0] - 2026-05-27 - "Decision, Messaging, Algorithm, and Supply-Chain Skills"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills --help`
+- Install: `npx annias-awesome-skills --help`
 - Choose your tool: [README.md#choose-your-tool](README.md#choose-your-tool)
 - Best skills by tool: [README.md#best-skills-by-tool](README.md#best-skills-by-tool)
 - Bundles: [docs/users/bundles.md](docs/users/bundles.md)
@@ -306,11 +306,11 @@ This release merges the accepted community skill PRs from the current maintainer
 
 ## [11.7.0] - 2026-05-26 - "Community Skill Intake and Merge Hygiene"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills --help`
+- Install: `npx annias-awesome-skills --help`
 - Choose your tool: [README.md#choose-your-tool](README.md#choose-your-tool)
 - Best skills by tool: [README.md#best-skills-by-tool](README.md#best-skills-by-tool)
 - Bundles: [docs/users/bundles.md](docs/users/bundles.md)
@@ -341,11 +341,11 @@ This release merges the clean community skill PRs from the current maintainer ba
 
 ## [11.6.0] - 2026-05-23 - "Audit Hardening and Karpathy Guidelines"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills --help`
+- Install: `npx annias-awesome-skills --help`
 - Choose your tool: [README.md#choose-your-tool](README.md#choose-your-tool)
 - Best skills by tool: [README.md#best-skills-by-tool](README.md#best-skills-by-tool)
 - Bundles: [docs/users/bundles.md](docs/users/bundles.md)
@@ -377,13 +377,13 @@ This release hardens the repository after a full audit pass, fixes issue #611 by
 
 ## [11.5.0] - 2026-05-21 - "Security Boundary Hardening and New Agent Skills"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 This release hardens plugin-safe distribution boundaries, resolves the current Dependabot `ws` alert in the web app lockfile, and merges PR #604 and PR #605 through the maintainer workflow.
 
 ## New Skills
 
-- **subagent-orchestrator** - quota-aware parallel subagent coordination for large, multi-file Antigravity tasks.
+- **subagent-orchestrator** - quota-aware parallel subagent coordination for large, multi-file tasks.
 - **bilig-workpaper** - formula-backed WorkPaper JSON and MCP guidance for deterministic spreadsheet-style agent workflows.
 
 ## Security
@@ -410,13 +410,13 @@ This release hardens plugin-safe distribution boundaries, resolves the current D
 
 ## [11.4.1] - 2026-05-20 - "Installer Supply-Chain Hardening"
 
-> Patch release for the npm installer used by Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Patch release for the npm installer used by Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 This release hardens the npm installer after reviewing Socket.dev's AI-detected code-anomaly warning for `tools/bin/install.js`.
 
 ## Improvements
 
-- **release-pinned installs** - default `npx antigravity-awesome-skills` installs now clone the matching package release tag instead of the repository tip, reducing drift between npm package contents and installed skills.
+- **release-pinned installs** - default `npx annias-awesome-skills` installs now clone the matching package release tag instead of the repository tip, reducing drift between npm package contents and installed skills.
 - **git ref validation** - `--tag` and `--version` refs are validated before invoking `git clone`, while still allowing explicit branch installs such as `--tag main`.
 - **destination symlink guard** - installer copy operations now refuse to write through pre-existing destination symlinks.
 - **installer docs and regression coverage** - documents the release-pinned default and adds installer tests for release-tag resolution and unsafe ref rejection.
@@ -428,15 +428,15 @@ This release hardens the npm installer after reviewing Socket.dev's AI-detected 
 
 ## [11.4.0] - 2026-05-20 - "Mercury MCP, Photopea Embeds, and Codex Bundle Names"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release merges PR #598 and PR #601 through the maintainer workflow, fixes issue #597 by shortening Codex bundle plugin identifiers, and reduces antivirus false-positive risk in the Linux privilege-escalation guidance from issue #600.
 
@@ -468,15 +468,15 @@ This release merges PR #598 and PR #601 through the maintainer workflow, fixes i
 
 ## [11.3.0] - 2026-05-16 - "Discovery Manifests and Recommendation Pipelines"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release closes issue #596 with a stable discovery-manifest contract and merges PR #595 through the maintainer squash-merge workflow. It keeps contributor PRs source-only while making `main` the canonical owner of generated manifests, web assets, and release metadata.
 
@@ -505,15 +505,15 @@ This release closes issue #596 with a stable discovery-manifest contract and mer
 
 ## [11.2.0] - 2026-05-13 - "Market Intelligence, Token Routing, and Chinese Growth Skills"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release merges PRs #587, #588, #589, #590, and #591 through the maintainer workflow. It adds measurement-driven model routing, Chinese market strategy skills, MCP tool-building guidance, options-flow analysis, RSS news sentiment briefings, and a refreshed Hermes Tweet path for the X/Twitter scraper.
 
@@ -549,15 +549,15 @@ This release merges PRs #587, #588, #589, #590, and #591 through the maintainer 
 
 ## [11.1.0] - 2026-05-11 - "Trace Audits, YouTube Ingest, and Reasoning Harnesses"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release merges PRs #582, #583, #584, and #586 through the maintainer squash-merge workflow, including fork-run approval, PR body normalization, source-credit fixes, branch conflict refreshes, and generated-state syncs on `main`. It refreshes the X/Twitter scraper skill, adds local session auditing with agenttrace, adds single-video YouTube transcript ingestion, and adds an Ejentum MCP reasoning-harness workflow.
 
@@ -589,15 +589,15 @@ This release merges PRs #582, #583, #584, and #586 through the maintainer squash
 
 ## [11.0.0] - 2026-05-08 - "Agent Execution, Game Planning, and Skill Writer References"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release merges PRs #575, #577, #578, #579, and #581 through the maintainer squash-merge workflow, including fork-run approval, PR body refreshes, source-credit fixes, contributor sync, and generated-state refreshes on `main`. It adds on-chain transaction orchestration, richer clarification, mock-data auditing, multi-agent architecture guidance, Unity game-planning workflows, and restores the missing `skill-writer` reference files reported in issue #576.
 
@@ -633,15 +633,15 @@ This release merges PRs #575, #577, #578, #579, and #581 through the maintainer 
 
 ## [10.10.0] - 2026-05-04 - "Production Audit, Context Pruning, and BuyWhere MCP"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release merges PRs #571, #573, and #574 through the maintainer squash-merge workflow, including fork-run approval, PR body normalization, source validation fixes, contributor credit sync, and generated-state refreshes on `main`. It adds production-readiness auditing, context/token budgeting guidance, and updates the BuyWhere source link to the general MCP server.
 
@@ -671,15 +671,15 @@ This release merges PRs #571, #573, and #574 through the maintainer squash-merge
 
 ## [10.9.0] - 2026-05-03 - "Skill Audit, PR Writing, and Heading Cleanup"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release merges PRs #565, #569, and #570 through the maintainer squash-merge workflow, closes issue #568 with a repo-wide heading cleanup, and closes issue #566 as out of scope for this skill-library repository.
 
@@ -697,7 +697,7 @@ This release merges PRs #565, #569, and #570 through the maintainer squash-merge
 
 ## Who should care
 
-- **Claude Code, Cursor, Codex CLI, Gemini CLI, and Antigravity users** get three new installable skills across security review, PR writing, and toolchain setup.
+- **Claude Code, Cursor, Codex CLI, Gemini CLI, and users** get three new installable skills across security review, PR writing, and toolchain setup.
 - **React users** get clearer file-structure guidance inside the React patterns skill.
 - **Maintainers** get cleaner heading structure, warning-budget headroom, and refreshed generated artifacts before the release.
 
@@ -709,15 +709,15 @@ This release merges PRs #565, #569, and #570 through the maintainer squash-merge
 
 ## [10.8.0] - 2026-04-29 - "Kubernetes, Commerce, Code Review, and Full-Cycle Development"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release merges PRs #556, #561, #562, and #564 through the maintainer squash-merge workflow, with fork-run approval, source provenance cleanup, contributor credit sync, and generated-state refreshes on `main`. It adds Kubernetes/MCP operations, commerce-agent product catalog onboarding, two code-review skills, and a full-cycle development workflow.
 
@@ -738,7 +738,7 @@ This release merges PRs #556, #561, #562, and #564 through the maintainer squash
 
 ## Who should care
 
-- **Claude Code, Cursor, Codex CLI, Gemini CLI, and Antigravity users** get five new installable skills across DevOps, ecommerce, review, and project execution.
+- **Claude Code, Cursor, Codex CLI, Gemini CLI, and users** get five new installable skills across DevOps, ecommerce, review, and project execution.
 - **Kubernetes users** get a KubeStellar Console entrypoint with clearer agent-permission boundaries.
 - **Commerce-agent builders** get a BuyWhere integration path that starts from live onboarding surfaces and API-key hygiene.
 - **Maintainers** get another clean source-only PR batch plus a fixed external network-test gate for Microsoft skills drift.
@@ -752,15 +752,15 @@ This release merges PRs #556, #561, #562, and #564 through the maintainer squash
 
 ## [10.7.0] - 2026-04-26 - "MCP-Aware Optimization, SEO Writing Hardening, and Unslop Cleanup"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release merges PRs #549, #553, and #554 with maintainer source-only enforcement, fork-run approval, contributor credit sync, and generated-state refreshes on `main`. It adds a new `unslop` prose cleanup skill, improves the WordPress/social SEO writing guidance, and upgrades `zipai-optimizer` with MCP-aware operating rules.
 
@@ -777,7 +777,7 @@ This release merges PRs #549, #553, and #554 with maintainer source-only enforce
 
 ## Who should care
 
-- **Claude Code, Cursor, Codex CLI, Gemini CLI, and Antigravity users** get a new `unslop` workflow for final prose cleanup before docs, posts, and release notes ship.
+- **Claude Code, Cursor, Codex CLI, Gemini CLI, and users** get a new `unslop` workflow for final prose cleanup before docs, posts, and release notes ship.
 - **MCP-heavy agent workflows** get clearer token and tool-use discipline through the updated `zipai-optimizer`.
 - **SEO/content users** get more cautious source handling and safer publishing copy requirements.
 - **Maintainers** get another tested batch through the source-only PR merge path with generated artifacts refreshed on `main`.
@@ -790,15 +790,15 @@ This release merges PRs #549, #553, and #554 with maintainer source-only enforce
 
 ## [10.6.0] - 2026-04-24 - "Agent Coordination, Browser Automation, API Integration, and Bullet Structuring"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release merges PRs #541, #545, #547, and #548 with maintainer source-only enforcement, generated-state sync, and checklist normalization for fork PRs. It adds four new skills across structured bullet formatting, frontend API integration, Skyvern browser automation, and lambda-lang agent coordination, and it patches the NotebookLM `python-dotenv` pin for Dependabot alert #40.
 
@@ -833,15 +833,15 @@ This release merges PRs #541, #545, #547, and #548 with maintainer source-only e
 
 ## [10.5.0] - 2026-04-20 - "Audit Fixes, Source-Only PR Hygiene, and OpenCode Stability Guidance"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release merges PRs #531, #532, #534, #535, #536, #537, and #538 with maintainer source-only enforcement, then closes follow-up audit items directly on `main`. It adds governance/IT framework depth, README count automation, parser and frontmatter fixes, security risk-label corrections, and explicit OpenCode troubleshooting guidance for Windows crash and compaction-loop scenarios.
 
@@ -863,7 +863,7 @@ This release merges PRs #531, #532, #534, #535, #536, #537, and #538 with mainta
 - **OpenCode and Windows users** get clearer, practical mitigation steps for startup crashes and context-loop instability when skill sets grow too quickly.
 - **Security-focused users** get cleaner risk labeling and allowlist metadata for offensive and command-heavy skills.
 - **Maintainers and contributors** get a stricter source-only PR merge flow that still preserves contributor merge credit.
-- **General users of Claude Code, Cursor, Codex CLI, Gemini CLI, and Antigravity** get documentation and parser/metadata fixes that improve reliability without changing install paths.
+- **General users of Claude Code, Cursor, Codex CLI, Gemini CLI, and Annias** get documentation and parser/metadata fixes that improve reliability without changing install paths.
 
 ## Credits
 
@@ -873,15 +873,15 @@ This release merges PRs #531, #532, #534, #535, #536, #537, and #538 with mainta
 
 ## [10.4.0] - 2026-04-19 - "Strategy Tooling, Idea Pipeline, and IT/Ops Skill Expansion"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release merges PRs #525, #526, #528, #529, and #530 and refreshes canonical generated state on `main`. It expands the catalog with new strategy, SEO, product-planning, IT service-management, and x402 monetization guidance while preserving maintainer quality gates (checklist normalization, contributor sync, source credit coverage, and release-state preflight).
 
@@ -918,15 +918,15 @@ This release merges PRs #525, #526, #528, #529, and #530 and refreshes canonical
 
 ## [10.3.0] - 2026-04-17 - "Taste Design, Mise Toolchains, and MCP Discovery"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release expands the installable library to 1,423+ skills with a new Taste Skill design collection, a mise toolchain configuration skill, and two remote MCP discovery workflows for AI-ready websites and AI/ML job-market data. It also includes maintainer hardening before merge: live MCP tool-name verification, deterministic mise examples, Taste Skill limitations coverage, regenerated catalogs, plugin mirrors, and source-only PR hygiene.
 
@@ -955,7 +955,7 @@ This release expands the installable library to 1,423+ skills with a new Taste S
 
 - **Claude Code users** get stronger frontend taste protocols, complete-output enforcement, and new MCP-powered discovery workflows.
 - **Cursor and Codex CLI users** get deterministic toolchain setup guidance via `mise-configurator` plus refreshed installable plugin mirrors.
-- **Gemini CLI and Antigravity users** get expanded design, MCP, and DevOps skill coverage with synchronized registry metadata.
+- **Gemini CLI and users** get expanded design, MCP, and DevOps skill coverage with synchronized registry metadata.
 - **Maintainers and downstream indexers** get source-only PR merges, current MCP tool schemas, contributor credit syncing, and release-ready generated artifacts.
 
 ## Credits
@@ -966,15 +966,15 @@ This release expands the installable library to 1,423+ skills with a new Taste S
 
 ## [10.2.0] - 2026-04-16 - "Daily Gifts and LambdaTest Automation"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release merges PRs #520 and #521 to add a relationship-aware creative gift workflow and a broad LambdaTest test-automation skill index. It also includes the maintainer follow-up required after the merges: README source-credit coverage, contributor syncing, generated registry refresh, plugin mirror updates, and release-state verification before tagging `v10.2.0`.
 
@@ -993,7 +993,7 @@ This release merges PRs #520 and #521 to add a relationship-aware creative gift 
 
 - **Claude Code users** get two new installable workflows for personal creative automation and cross-framework test automation.
 - **Cursor and Codex CLI users** get a larger testing skill surface that can be installed into tool-specific skill directories.
-- **Gemini CLI and Antigravity users** get refreshed registry counts, plugin mirrors, and catalog metadata aligned with the latest merged source state.
+- **Gemini CLI and users** get refreshed registry counts, plugin mirrors, and catalog metadata aligned with the latest merged source state.
 - **Maintainers and downstream indexers** get complete source-credit coverage for the new community-sourced skills.
 
 ## Credits
@@ -1005,15 +1005,15 @@ This release merges PRs #520 and #521 to add a relationship-aware creative gift 
 
 ## [10.1.0] - 2026-04-14 - "License Provenance, MiniMax CLI, and ZipAI Refresh"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release merges PRs #514, #516, and #517, then lands the direct maintainer fix for issue #518 on `main` before cutting `v10.1.0`. It expands the skill library with the new `mmx-cli` installer-ready MiniMax workflow, upgrades `zipai-optimizer` to the latest protocol shape, adds optional license provenance fields to the contributor-facing skill schema, and folds in the post-`v10.0.0` limitations-backfill work plus the required maintainer follow-up on contributor syncing and README source credits.
 
@@ -1044,15 +1044,15 @@ This release merges PRs #514, #516, and #517, then lands the direct maintainer f
 
 ## [10.0.0] - 2026-04-13 - "Audit Skills, Protocols, and Web App Branding"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release folds in the current seven-PR maintenance batch: PR #500 refreshes the web app branding with a favicon bundle and header logo, PRs #503, #508, #509, #512, and #513 add new skills for LinkedIn authority building, first-principles assumption audits, indexing diagnosis, Helium MCP research workflows, and ZipAI protocol design, and PR #501 corrects author attribution on the WordPress SEO writing skill. It also includes the required maintainer follow-up on `main`: contributor syncing, canonical generated-file refresh, plugin mirror updates, and release-state cleanup before tagging `v10.0.0`.
 
@@ -1087,15 +1087,15 @@ This release folds in the current seven-PR maintenance batch: PR #500 refreshes 
 
 ## [9.13.0] - 2026-04-12 - "WordPress Builders, VS Code Extensions, and Security Review"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release merges PRs #492, #494, #495, and #496 to expand the library with WordPress-focused writing and migration workflows, a VS Code extension development guide, and stronger `security-auditor` instructions for IDOR and data-flow tracing. It also includes the required maintainer follow-up on `main`: contributor syncing, README source-credit coverage for the new community-sourced VS Code skill, and the canonical post-merge state before tagging `v9.13.0`.
 
@@ -1126,15 +1126,15 @@ This release merges PRs #492, #494, #495, and #496 to expand the library with Wo
 
 ## [9.12.0] - 2026-04-11 - "Rayden UI, Puzzle Planning, and Skill Diagnostics"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release merges PRs #487 through #490 to expand the library with Rayden UI build workflows, puzzle activity planning, and skill-diagnostic analysis, while also repairing malformed YAML in `sales-automator`. It includes the required maintainer follow-up on `main`: PR metadata normalization for forked runs, README source-credit fixes, contributor syncing, and the canonical post-merge repository-state refresh before tagging `v9.12.0`.
 
@@ -1169,15 +1169,15 @@ This release merges PRs #487 through #490 to expand the library with Rayden UI b
 
 ## [9.11.0] - 2026-04-09 - "Monte Carlo Skills and Cross-Tool Skill Management"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release merges PR #481 and PR #482 to expand the library in two directions: data observability workflows for Monte Carlo users and cross-tool skill maintenance guidance for teams operating across multiple agent coding environments. It also carries the required maintainer follow-up on `main`, including contributor syncing, README source-credit coverage, and canonical post-merge repository hygiene before the release cut.
 
@@ -1209,15 +1209,15 @@ This release merges PR #481 and PR #482 to expand the library in two directions:
 
 ## [9.10.0] - 2026-04-08 - "StyleSeed UI and UX Pack"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release merges PR #479 to add an 11-skill StyleSeed-derived UI and UX pack sourced from `bitjaru/styleseed`. It expands the library with design-aware setup, component and page scaffolding, token management, accessibility review, UX audit flows, and feedback-state guidance, then carries the required README source-credit and maintainer follow-up state on `main`.
 
@@ -1253,15 +1253,15 @@ This release merges PR #479 to add an 11-skill StyleSeed-derived UI and UX pack 
 
 ## [9.9.0] - 2026-04-07 - "Vibeship Restore and Community Merge Batch"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release restores the full imported content for the affected `vibeship-spawner-skills` set after the truncation reported in issue `#473`, then folds in the current approved community PR batch. It also refreshes contributor syncing and README source credits so the repository state, plugin mirrors, and public credit surfaces stay aligned on `main`.
 
@@ -1293,15 +1293,15 @@ This release restores the full imported content for the affected `vibeship-spawn
 
 ## [9.8.0] - 2026-04-06 - "Governance, Tracking, and Discovery Skills"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release merges five community contributions that expand the library across MCP governance, change tracking, multi-agent orchestration, agent discovery, and scripted slide generation. It also ships the corresponding README source-credit updates and maintainer follow-up syncs required by the current PR quality bar.
 
@@ -1335,15 +1335,15 @@ This release merges five community contributions that expand the library across 
 
 ## [9.7.0] - 2026-04-05 - "Windows Reliability and Guidance Cleanup"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release focuses on repository reliability rather than new skill volume. It merges the Windows validation and activation hardening from PR #457, adds stronger smoke coverage for the batch activation path, and finishes a broad `## When to Use` cleanup so the repository stays within the current quality bar without carrying contributor-side generated drift.
 
@@ -1371,15 +1371,15 @@ This release focuses on repository reliability rather than new skill volume. It 
 
 ## [9.6.0] - 2026-04-04 - "Psychology and SEO Growth Packs"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release folds the full open PR batch into `main` and centers on two major content expansions for growth teams. It adds an SEO/AEO content engine and a large psychology-driven marketing pack, while also tightening the web-app skill card hover state and pulling in the latest `yaml` patch release so the repository and installer surface stay current.
 
@@ -1409,7 +1409,7 @@ This release folds the full open PR batch into `main` and centers on two major c
 
 ## [9.5.1] - 2026-04-03 - "npm Runtime Dependency Fix"
 
-> **Patch release to restore `npx antigravity-awesome-skills` installs after the published CLI started failing to resolve `yaml` at runtime**
+> **Patch release to restore `npx annias-awesome-skills` installs after the published CLI started failing to resolve `yaml` at runtime**
 
 This release fixes a packaging regression in `9.5.0`. The installer entrypoint loads `tools/lib/skill-utils.js`, which depends on `yaml`, but the published npm package declared that module only as a development dependency. In clean `npx` environments this caused the installer to crash immediately with `Error: Cannot find module 'yaml'`, as reported in issue `#445`.
 
@@ -1429,15 +1429,15 @@ This release fixes a packaging regression in `9.5.0`. The installer entrypoint l
 
 ## [9.5.0] - 2026-04-03 - "Selective Installs and 30K Stars"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, OpenCode, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, OpenCode, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release expands the library with four practical additions while making installs much more manageable for context-sensitive runtimes. It merges the current open PR batch, adds `humanize-chinese` directly on `main`, introduces first-class installer filtering by `risk`, `category`, and `tags`, and updates the docs so OpenCode-style `.agents/skills` setups start from a reduced install instead of overwhelming the runtime. It also marks a project milestone: the repository crossed **30K GitHub stars** on April 3, 2026. Thank you to every contributor, source project, issue reporter, and user who keeps this library useful.
 
@@ -1474,15 +1474,15 @@ Upgrade now: `git pull origin main` to fetch the latest skills.
 
 ## [9.4.0] - 2026-03-31 - "Release Hardening and Credit Sync"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release focuses on repository reliability rather than adding new skills. It hardens marketplace and plugin validation, adds stronger release-facing CI checks, refreshes the root README and source-credit ledger, and cleans up several maintainer and user docs so the public repo matches the active merge and release workflow on `main`.
 
@@ -1505,7 +1505,7 @@ This release focuses on repository reliability rather than adding new skills. It
 ## Who should care
 
 - **Maintainers** get a safer release path with stricter validation, clearer post-merge credit rules, and stronger CI checks before tags are cut.
-- **Claude Code, Codex CLI, Cursor, Gemini CLI, and Antigravity users** get a cleaner root README and more accurate source attribution when discovering official and community skill collections.
+- **Claude Code, Codex CLI, Cursor, Gemini CLI, and users** get a cleaner root README and more accurate source attribution when discovering official and community skill collections.
 - **Contributors and documentation-heavy users** get more consistent English-language docs across workflows, maintainer guidance, and integration references.
 
 ## Credits
@@ -1514,15 +1514,15 @@ This release focuses on repository reliability rather than adding new skills. It
 
 ## [9.3.0] - 2026-03-30 - "Chinese Documentation Expansion and Community Discovery"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release makes the repository much easier to use for Chinese-speaking developers while tightening contributor docs and expanding community-skill discovery. It ships the full `docs_zh-CN` translation batch, folds in a markdown fence fix for contributor documentation, strengthens `github-issue-creator` discoverability metadata, and carries forward the recent `SoulPass` community listing on `main`.
 
@@ -1550,15 +1550,15 @@ This release makes the repository much easier to use for Chinese-speaking develo
 
 ## [9.2.0] - 2026-03-29 - "Hugging Face Ecosystem and Shell Workflow Expansion"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release expands practical day-to-day coverage for Claude Code, Cursor, Codex CLI, Gemini CLI, and similar agent workflows. It adds a full batch of Hugging Face ecosystem skills, new shell and terminal expertise for `jq` and `tmux`, a new `viboscope` collaboration skill, and stronger Odoo guidance for safer credentials and more reliable EDI flows.
 
@@ -1603,15 +1603,15 @@ This release expands practical day-to-day coverage for Claude Code, Cursor, Code
 
 ## [9.1.0] - 2026-03-28 - "SaaS Multi-Tenancy and Three.js r183 Refresh"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release adds two new skills for phase-gated debugging and multi-tenant SaaS architecture, modernizes the Three.js skill stack for r183 and newer WebGPU/TSL-era patterns, and expands community discovery with `claude-dash` for Claude Code status visibility.
 
@@ -1643,18 +1643,18 @@ This release adds two new skills for phase-gated debugging and multi-tenant SaaS
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Plugin explainer: [docs/users/plugins.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/plugins.md)
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Plugin explainer: [docs/users/plugins.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/plugins.md)
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release makes the new plugin distribution model a user-facing feature. Claude Code now has a formal root marketplace plugin plus generated bundle plugins, and Codex now ships the equivalent repo-local root plugin plus generated bundle plugins. The release also consolidates plugin documentation into a canonical user guide, aligns onboarding docs around the difference between the full repository and the plugin-safe subset, and packages the latest merge batch on `main`.
 
 ## New
 
 - **Claude Code plugin distribution** - formalized the root `.claude-plugin` marketplace entry plus generated bundle plugins as a first-class install path.
-- **Codex plugin distribution** - formalized the root Codex plugin metadata in `.agents/plugins/marketplace.json` and `plugins/antigravity-awesome-skills/.codex-plugin/plugin.json`, alongside generated bundle plugins.
+- **Codex plugin distribution** - formalized the root Codex plugin metadata in `.agents/plugins/marketplace.json` and `plugins/annias-awesome-skills/.codex-plugin/plugin.json`, alongside generated bundle plugins.
 - **Canonical plugin documentation** - added `docs/users/plugins.md` to explain plugin-safe filtering, root plugin vs bundle plugins, and when to prefer plugins over the full library install.
 - **akf-trust-metadata** - merged PR #406, adding the new `akf-trust-metadata` skill to the repository.
 
@@ -1677,15 +1677,15 @@ This release makes the new plugin distribution model a user-facing feature. Clau
 
 ## [8.10.0] - 2026-03-26 - "Discovery Boost for Social, MCP, and Ops"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, Windsurf, Cline, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Windsurf, Cline, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release improves discovery and day-to-day usefulness for Claude Code, Cursor, Codex CLI, Windsurf, Cline, and similar agent workflows. It adds two new installable skills for X/Twitter extraction and MCP server evaluation, brings in two more community skill collections for study automation and HubSpot CRM operations, and refreshes the registry/docs surface to `1,328+` skills.
 
@@ -1717,15 +1717,15 @@ Upgrade now: `git pull origin main` to fetch the latest skills.
 
 ## [8.9.0] - 2026-03-25 - "Apple Workflow Expansion and Data Platform Additions"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release combines a curated import from `Dimillian/Skills` with two merged community pull requests on `main`. It expands Apple-platform workflows, GitHub/refactor guidance, and SwiftUI performance coverage, adds a new Snowflake engineering skill, updates WordPress skills for 7.0, and refreshes the registry/docs surface to `1,326+` indexed skills.
 
@@ -1771,15 +1771,15 @@ Upgrade now: `git pull origin main` to fetch the latest skills.
 
 ## [8.8.0] - 2026-03-24 - "Review Automation and Research Expansion"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release packages the post-`v8.7.1` merge batch: two new community skills and a maintainer workflow upgrade that expands pull request review into review-and-optimize flows. It also refreshes generated catalog metadata, contributor sync, and tracked web assets so `main` stays aligned at `1,311+` indexed skills.
 
@@ -1813,11 +1813,11 @@ Upgrade now: `git pull origin main` to fetch the latest skills.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This patch release keeps the `8.7.0` skill/library content intact and fixes the release pipeline so npm publication works end-to-end again. The root cause was that the publish workflow only installed root dependencies before building `apps/web-app`, leaving the web app without its own `node_modules` in CI.
 
@@ -1835,15 +1835,15 @@ This patch release keeps the `8.7.0` skill/library content intact and fixes the 
 
 ## [8.7.0] - 2026-03-23 - "Reference Recovery and Release Reliability"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release packages the maintainer sweep after `v8.6.0`: restored missing C++ reference material, added three new community skills plus the maintainer-integrated `jobgpt` skill, and fixed the Jetski lazy-loader example so release validation no longer fails on a raw TypeScript import.
 
@@ -1877,17 +1877,17 @@ Upgrade now: `git pull origin main` to fetch the latest skills.
 
 ## [8.6.0] - 2026-03-22 - "Targeted Activation and Catalog Cleanup"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
-This release packages the maintainer sweep after `v8.5.0`: the new `gdb-cli` community skill, removal of the stale in-repo `goldrush-api` copy, and a cross-platform recovery path for Antigravity users who hit truncation or context overload with too many active skills.
+This release packages the maintainer sweep after `v8.5.0`: the new `gdb-cli` community skill, removal of the stale in-repo `goldrush-api` copy, and a cross-platform recovery path for users who hit truncation or context overload with too many active skills.
 
 ## New Skills
 
@@ -1895,14 +1895,14 @@ This release packages the maintainer sweep after `v8.5.0`: the new `gdb-cli` com
 
 ## Improvements
 
-- **Antigravity overload recovery**: Added `scripts/activate-skills.sh`, a matching installer hint, and new cross-platform user docs so Linux/macOS users can archive the full library and activate only the bundles or skill ids they need in the live Antigravity directory (issue #381).
+- **Annias overload recovery**: Added `scripts/activate-skills.sh`, a matching installer hint, and new cross-platform user docs so Linux/macOS users can archive the full library and activate only the bundles or skill ids they need in the live directory (issue #381).
 - **Windows/Linux/macOS troubleshooting**: Expanded the recovery guidance with a shared overload guide plus clearer README, FAQ, and getting-started links for truncation and context-limit failures.
 - **Registry cleanup**: Removed the stale in-repo `goldrush-api` mirror, regenerated bundle/catalog artifacts, and refreshed tracked web assets so canonical references no longer point at deleted content (PR #379).
 - **Maintainer sync**: Refreshed `README.md`, `CATALOG.md`, `skills_index.json`, `data/catalog.json`, `data/bundles.json`, contributors, and sitemap output after the PR merge batch so `main` stays release-ready.
 
 ## Who should care
 
-- **Antigravity users** get a new activation flow for large repositories and a clearer recovery path when too many active skills trigger truncation-style failures.
+- **Annias users** get a new activation flow for large repositories and a clearer recovery path when too many active skills trigger truncation-style failures.
 - **Claude Code and Cursor users** benefit from the new `gdb-cli` skill for C/C++ debugging and the cleaned-up catalog/docs surfaces.
 - **Codex CLI users** benefit from the same new debugging skill plus maintainer-driven registry cleanup that keeps generated artifacts and references aligned.
 - **Gemini CLI users** benefit from the updated troubleshooting docs and the removal of stale catalog references in shared bundle metadata.
@@ -1916,15 +1916,15 @@ Upgrade now: `git pull origin main` to fetch the latest skills.
 
 ## [8.5.0] - 2026-03-21 - "Installer Safety and Maintainer Automation"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release captures everything that landed after `v8.4.0`: a safety fix for the installer migration path, two new in-repo bdistill skills, broader maintainer automation for metadata/release hygiene, refreshed generated artifacts for the `1,306+` skill catalog, and a new README community section for five OpenClaw skills.
 
@@ -1958,15 +1958,15 @@ Upgrade now: `git pull origin main` to fetch the latest skills.
 
 ## [8.4.0] - 2026-03-20 - "Discovery, Metadata, and Release Hardening"
 
-> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, and related AI coding assistants.
 
 Start here:
 
-- Install: `npx antigravity-awesome-skills`
-- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
-- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
-- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
-- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+- Install: `npx annias-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/annias/annias-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/annias/annias-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/annias/annias-awesome-skills/blob/main/docs/users/workflows.md)
 
 This release packages everything that landed after `v8.3.0`: new discovery and SEO surfaces for the catalog, GitHub Pages/web-app reliability fixes, metadata and index curation across the 1,273-skill registry, maintainer release/support polish, and the final merge sweep for PRs #363, #362, and #360.
 
@@ -2125,9 +2125,9 @@ This release closes the open PR maintenance batch in one pass. It adds new skill
 
 ## [7.9.2] - 2026-03-15 - "npm CLI Packaging Fix"
 
-> **Patch release to fix the published npm CLI bundle so `npx antigravity-awesome-skills` resolves its runtime helper modules correctly**
+> **Patch release to fix the published npm CLI bundle so `npx annias-awesome-skills` resolves its runtime helper modules correctly**
 
-This release fixes a packaging regression in the published npm artifact. Version `7.9.1` shipped `tools/bin/install.js` without the required `tools/lib` runtime helpers, causing `npx antigravity-awesome-skills` to fail with `MODULE_NOT_FOUND` for `../lib/symlink-safety`.
+This release fixes a packaging regression in the published npm artifact. Version `7.9.1` shipped `tools/bin/install.js` without the required `tools/lib` runtime helpers, causing `npx annias-awesome-skills` to fail with `MODULE_NOT_FOUND` for `../lib/symlink-safety`.
 
 ## New Skills
 
@@ -2236,7 +2236,7 @@ This release turns a noisy maintainer workflow into a predictable one. It merges
 - **llm-structured-output** — structured JSON/schema extraction patterns across OpenAI, Anthropic, and Gemini (PR #280)
 - **electron-development** — secure Electron architecture, IPC hardening, packaging, signing, and updates (PR #282)
 - **privacy-by-design** — privacy-first software design patterns and implementation guidance (PR #283)
-- **antigravity-skill-orchestrator** — meta-skill for selecting and coordinating the best skill set for a task (PR #285)
+- **annias-skill-orchestrator** — meta-skill for selecting and coordinating the best skill set for a task (PR #285)
 
 ## Improvements
 
@@ -2250,7 +2250,7 @@ This release turns a noisy maintainer workflow into a predictable one. It merges
 - **[@sx4im](https://github.com/sx4im)** for `llm-structured-output` (PR #280)
 - **[@MatheusCampagnolo](https://github.com/MatheusCampagnolo)** for `electron-development` (PR #282)
 - **[@Abdeltoto](https://github.com/Abdeltoto)** for `privacy-by-design` (PR #283)
-- **[@wahidzzz](https://github.com/wahidzzz)** for `antigravity-skill-orchestrator` (PR #285)
+- **[@wahidzzz](https://github.com/wahidzzz)** for `annias-skill-orchestrator` (PR #285)
 
 ## [7.6.0] - 2026-03-12 - "Maintenance Sweep"
 
@@ -2361,7 +2361,7 @@ Automates seeking and analyzing of video content, extracting key insights and mo
 - **Documentation Consistency**: Full audit and remediation of `.github/MAINTENANCE.md` rules.
 - **TOC Formatting**: Removed emojis from H2 headers in `README.md` to fix broken markdown anchors.
 - **Statistics Alignment**: Synced skill counts across `package.json` and `README.md` for accurate representation (1,239+).
-- **Workflow Routing**: Added the `design-ddd-core-domain` workflow to required path definitions and copy-paste examples in `skills/antigravity-workflows/SKILL.md`.
+- **Workflow Routing**: Added the `design-ddd-core-domain` workflow to required path definitions and copy-paste examples in `skills/annias-workflows/SKILL.md`.
 - **Validation**: Passed all sync chains including `npm run validate:references`.
 
 ## 👥 Credits
@@ -2443,7 +2443,7 @@ _Upgrade now: `git pull origin main` to fetch the latest skills._
 
 > **7 new skills merged from the community, README structure restored, and 1,272 skills milestone confirmed.**
 
-This release integrates a fresh batch of community pull requests: a Figma-to-React converter, Stripe payment expert, TanStack Query expert, Vercel AI SDK expert, Uncle Bob Clean Architecture guide, Antigravity premium design skills, and an AI agent toolkit. It also restores the structural integrity of README.md, which had picked up nested conflict markers from the batch-merge process.
+This release integrates a fresh batch of community pull requests: a Figma-to-React converter, Stripe payment expert, TanStack Query expert, Vercel AI SDK expert, Uncle Bob Clean Architecture guide, premium design skills, and an AI agent toolkit. It also restores the structural integrity of README.md, which had picked up nested conflict markers from the batch-merge process.
 
 ## 🚀 New Skills
 
@@ -2482,11 +2482,11 @@ Code reviews, refactoring, SOLID principles, and design pattern references.
 
 > **Try it:** `Use @uncle-bob-craft to review this class for SRP violations.`
 
-### ✨ [antigravity-premium-design](skills/antigravity-premium-design/)
+### ✨ [annias-premium-design](skills/annias-premium-design/)
 
-**Premium UI/UX patterns and motion design for Antigravity IDE.**
+**Premium UI/UX patterns and motion design for AI IDE.**
 
-> **Try it:** `Use @antigravity-premium-design to redesign this component.`
+> **Try it:** `Use @annias-premium-design to redesign this component.`
 
 ## 📦 Improvements
 
@@ -2500,7 +2500,7 @@ A huge shoutout to our community contributors:
 
 - **@GuppyTheCat** for `obsidian-clipper-template-creator` (PR #226)
 - **@sraphaz** for `uncle-bob-craft` (PR #225)
-- **@ziuus** for `antigravity-premium-design` (PR #224)
+- **@ziuus** for `annias-premium-design` (PR #224)
 - **@sx4im** for `git-hooks-automation` (PR #223), `tanstack-query-expert` (PR #222), `vercel-ai-sdk-expert` (PR #220)
 - **@Sayeem3051** for skill filtering utility (PR #219)
 - **@AlmogBaku** for `debug-skill` (PR #218)
@@ -2978,7 +2978,7 @@ Ingest files/URLs/live streams, build visual/spoken indexes, search with timesta
 
 ### 📦 Improvements
 
-- **Multi-Tool Install Support**: The installer now supports installing skills for multiple tools simultaneously (e.g., `npx antigravity-awesome-skills --claude --codex`). Fixes #182.
+- **Multi-Tool Install Support**: The installer now supports installing skills for multiple tools simultaneously (e.g., `npx annias-awesome-skills --claude --codex`). Fixes #182.
 - **Web-App Sync Optimization**: Hybrid sync strategy using git fetch for faster updates (5+ min → < 2 sec when no changes). Includes sort by "Most Stars" feature.
 - **Registry Update**: Now tracking 970 skills (+2 new).
 
@@ -3498,9 +3498,9 @@ _Upgrade now: `git pull origin main` to fetch the latest skills._
 
 ## [6.0.0] - 2026-02-22 - "Codex YAML Fix & Community PRs"
 
-> **Major release: Codex frontmatter fixes, AWS Security & Compliance skills, Antigravity Workspace Manager CLI, and validation fixes.**
+> **Major release: Codex frontmatter fixes, AWS Security & Compliance skills, Workspace Manager CLI, and validation fixes.**
 
-This release addresses Codex invalid YAML warnings (issue #108) via frontmatter fixes, adds AWS Security & Compliance skills and the official Antigravity Workspace Manager CLI companion, and fixes validation for nerdzao-elite skills.
+This release addresses Codex invalid YAML warnings (issue #108) via frontmatter fixes, adds AWS Security & Compliance skills and the official Workspace Manager CLI companion, and fixes validation for nerdzao-elite skills.
 
 ## New Skills
 
@@ -3510,7 +3510,7 @@ This release addresses Codex invalid YAML warnings (issue #108) via frontmatter 
 ## Improvements
 
 - **Frontmatter**: Fixed YAML frontmatter in code-reviewer, architect-review, c-pro, design-orchestration, haskell-pro, multi-agent-brainstorming, performance-engineer, search-specialist (PR #111) — reduces Codex "invalid YAML" warnings (fixes #108).
-- **Antigravity Workspace Manager**: Official CLI companion to auto-provision skill subsets across environments (PR #110); documented in Community Contributors.
+- **Annias Workspace Manager**: Official CLI companion to auto-provision skill subsets across environments (PR #110); documented in Community Contributors.
 - **Registry**: Now tracking 889 skills.
 - **Validation**: Added frontmatter and "When to Use" for nerdzao-elite / nerdzao-elite-gemini-high.
 
@@ -3518,7 +3518,7 @@ This release addresses Codex invalid YAML warnings (issue #108) via frontmatter 
 
 - **@Vonfry** for frontmatter YAML fixes (PR #111)
 - **@ssumanbiswas** for AWS Security & Compliance skills (PR #106)
-- **@amartelr** for Antigravity Workspace Manager CLI (PR #110)
+- **@amartelr** for Workspace Manager CLI (PR #110)
 - **@fernandorych** for branch sync (PR #109)
 - **@Rodrigolmti** for reporting Codex YAML issue (#108)
 
@@ -3540,7 +3540,7 @@ This release adds comprehensive support for Kiro CLI, AWS's recently launched ag
 
 ## 🐛 Bug Fixes
 
-- **Installer Path Consistency**: Fixed Issue #105 where the published `v5.9.0` npm install script contained an older version of `bin/install.js`, causing `--antigravity` installs to mistakenly target `.agent/skills` instead of the global `~/.gemini/antigravity/skills`. This release (`5.10.0`) properly bundles the corrected npm install script.
+- **Installer Path Consistency**: Fixed Issue #105 where the published `v5.9.0` npm install script contained an older version of `bin/install.js`, causing `--agents` installs to mistakenly target `.agent/skills` instead of the global `~/.gemini/annias/skills`. This release (`5.10.0`) properly bundles the corrected npm install script.
 
 ## 👥 Credits
 
@@ -3582,7 +3582,7 @@ Walks through a 6-step setup for the Manifest observability platform, including 
 ## 📦 Improvements
 
 - **Registry Update**: Now tracking 883 skills.
-- **CLI Installer**: Fixed the default `.agent/skills` path to properly default to `~/.gemini/antigravity/skills` and added an explicit `--antigravity` flag (fixes #101).
+- **CLI Installer**: Fixed the default `.agent/skills` path to properly default to `~/.gemini/annias/skills` and added an explicit `--agents` flag (fixes #101).
 - **Validation**: Enforced strict folder-to-name matching and concise (<200 char) descriptions based on `agentskills-ref` (fixes #97).
 - **Validation**: Added build-time Markdown dangling link validation to `validate_skills.py` to prevent agents from hallucinating relative paths (fixes #102).
 
@@ -3854,15 +3854,15 @@ Integrates the full official Microsoft skills collection (129 skills) and Google
 
 ---
 
-## [5.0.0] - 2026-02-10 - "Antigravity Workflows Foundation"
+## [5.0.0] - 2026-02-10 - "Annias Workflows Foundation"
 
 > Workflows are now first-class: users can run guided, multi-skill playbooks instead of manually composing skills one by one.
 
 ### Added
 
-- **New orchestration skill**: `antigravity-workflows`
-  - `skills/antigravity-workflows/SKILL.md`
-  - `skills/antigravity-workflows/resources/implementation-playbook.md`
+- **New orchestration skill**: `annias-workflows`
+  - `skills/annias-workflows/SKILL.md`
+  - `skills/annias-workflows/resources/implementation-playbook.md`
 - **New workflow documentation**: `docs/WORKFLOWS.md`
   - Introduces the Workflows model and differentiates it from Bundles.
   - Provides execution playbooks with prerequisites, ordered steps, and prompt examples.
@@ -3875,7 +3875,7 @@ Integrates the full official Microsoft skills collection (129 skills) and Google
 ### Changed
 
 - **README / Onboarding docs** updated to include Workflows discovery and usage:
-  - `README.md` (TOC + "Antigravity Workflows" section)
+  - `README.md` (TOC + "Annias Workflows" section)
   - `docs/GETTING_STARTED.md` (Bundles vs Workflows guidance)
   - `docs/FAQ.md` (new Q&A: Bundles vs Workflows)
 - **Go browser automation alignment**:
@@ -4011,7 +4011,7 @@ Integrates the full official Microsoft skills collection (129 skills) and Google
 
 ### Changed
 
-- **Documentation**: Clarified in README.md and GETTING_STARTED.md that installation means cloning the full repo once; Starter Packs are curated lists to discover skills by role, not a different installation method (fixes [#44](https://github.com/sickn33/antigravity-awesome-skills/issues/44)).
+- **Documentation**: Clarified in README.md and GETTING_STARTED.md that installation means cloning the full repo once; Starter Packs are curated lists to discover skills by role, not a different installation method (fixes [#44](https://github.com/annias/annias-awesome-skills/issues/44)).
 
 ### Registry
 
@@ -4063,11 +4063,11 @@ Integrates the full official Microsoft skills collection (129 skills) and Google
 
 ## [4.0.0] - 2026-01-28 - "The Enterprise Era"
 
-> **A massive integration of 300+ Enterprise skills, transforming Antigravity into a complete operating system for AI agents.**
+> **A massive integration of 300+ Enterprise skills, transforming into a complete operating system for AI agents.**
 
 ### Added
 
-- **Massive Skill Injection**: Merged 300+ Enterprise skills from `rmyndharis/antigravity-skills`.
+- **Massive Skill Injection**: Merged 300+ Enterprise skills from `rmyndharis/annias-skills`.
 - **New Categories**:
   - **Architecture & Design**: `backend-architect`, `c4-architecture`.
   - **Data & AI**: `rag-engineer`, `langchain-architecture`.
@@ -4433,13 +4433,13 @@ The following skills are now correctly indexed and visible in the registry:
 
 - **58 core skills** aggregated from community:
   - [obra/superpowers](https://github.com/obra/superpowers) - Original Superpowers
-  - [guanyang/antigravity-skills](https://github.com/guanyang/antigravity-skills) - Core extensions
+  - [guanyang/annias-skills](https://github.com/guanyang/annias-skills) - Core extensions
   - [diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase) - Infrastructure skills
   - [ChrisWiles/claude-code-showcase](https://github.com/ChrisWiles/claude-code-showcase) - React UI patterns
   - [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) - Loki Mode
   - [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) - Senior Engineering
 - Universal **SKILL.md** format
-- Compatibility with Claude Code, Gemini CLI, Cursor, Copilot, Antigravity
+- Compatibility with Claude Code, Gemini CLI, Cursor, Copilot, Annias
 
 ---
 

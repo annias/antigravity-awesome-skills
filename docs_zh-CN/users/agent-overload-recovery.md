@@ -1,6 +1,6 @@
-# 针对上下文过载和截断的 Antigravity 恢复
+# 针对上下文过载和截断的 恢复
 
-当 Antigravity 为当前任务加载了太多技能并开始出现截断、上下文或轨迹转换错误时，请使用本指南。
+当 为当前任务加载了太多技能并开始出现截断、上下文或轨迹转换错误时，请使用本指南。
 
 典型症状：
 
@@ -10,9 +10,9 @@
 
 ## Linux 和 macOS 快速路径
 
-使用激活脚本保持完整库归档，同时在实时 Antigravity 目录中仅暴露您需要的包或技能。
+使用激活脚本保持完整库归档，同时在实时 目录中仅暴露您需要的包或技能。
 
-1. 完全关闭 Antigravity。
+1. 完全关闭 Annias。
 2. 如果您还没有克隆此仓库，请在本地某处克隆。
 3. 从克隆的仓库运行激活脚本。
 
@@ -34,13 +34,13 @@
 可选的环境覆盖：
 
 ```bash
-AG_BASE_DIR=/custom/antigravity ./scripts/activate-skills.sh --clear Essentials
+AG_BASE_DIR=/custom/annias ./scripts/activate-skills.sh --clear Essentials
 AG_REPO_SKILLS_DIR=/path/to/repo/skills ./scripts/activate-skills.sh brainstorming
 ```
 
 ## Windows 恢复
 
-如果 Antigravity 在 Windows 上陷入重启循环，请使用 Windows 特定的恢复指南：
+如果 在 Windows 上陷入重启循环，请使用 Windows 特定的恢复指南：
 
 - [windows-truncation-recovery.md](windows-truncation-recovery.md)
 

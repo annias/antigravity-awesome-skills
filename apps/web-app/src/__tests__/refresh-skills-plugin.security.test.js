@@ -316,11 +316,11 @@ describe('refresh-skills plugin security', () => {
       validateArchiveEntryName,
     } = await import('../../refresh-skills-plugin.js');
 
-    expect(validateArchiveEntryName('antigravity-awesome-skills-main/skills/demo/SKILL.md')).toBe(true);
+    expect(validateArchiveEntryName('annias-awesome-skills-main/skills/demo/SKILL.md')).toBe(true);
     expect(validateArchiveEntryName('../outside')).toBe(false);
     expect(validateArchiveEntryName('/tmp/outside')).toBe(false);
     expect(validateArchiveEntryName('other-root/skills/demo/SKILL.md')).toBe(false);
-    expect(() => assertSafeArchiveEntries(['antigravity-awesome-skills-main/../../outside'])).toThrow(
+    expect(() => assertSafeArchiveEntries(['annias-awesome-skills-main/../../outside'])).toThrow(
       'Unsafe archive entry path',
     );
   });
@@ -330,7 +330,7 @@ describe('refresh-skills plugin security', () => {
 
     expect(() =>
       assertSafeArchiveEntries(
-        ['antigravity-awesome-skills-main/skills/demo -> /tmp/outside'],
+        ['annias-awesome-skills-main/skills/demo -> /tmp/outside'],
         { rejectSymlinks: true },
       ),
     ).toThrow('Unsafe archive symlink entry');
@@ -348,15 +348,15 @@ describe('refresh-skills plugin security', () => {
       fs.writeFileSync(
         archivePath,
         createTarGzip([
-          { name: 'antigravity-awesome-skills-main/' },
-          { name: 'antigravity-awesome-skills-main/skills/demo/SKILL.md', data: 'demo' },
+          { name: 'annias-awesome-skills-main/' },
+          { name: 'annias-awesome-skills-main/skills/demo/SKILL.md', data: 'demo' },
         ]),
       );
       const entries = readTarGzipEntries(archivePath);
 
       expect(entries.map((entry) => entry.name)).toEqual([
-        'antigravity-awesome-skills-main/',
-        'antigravity-awesome-skills-main/skills/demo/SKILL.md',
+        'annias-awesome-skills-main/',
+        'annias-awesome-skills-main/skills/demo/SKILL.md',
       ]);
       expect(() => assertSafeArchiveEntries(entries, { rejectLinks: true })).not.toThrow();
     } finally {
@@ -377,7 +377,7 @@ describe('refresh-skills plugin security', () => {
         archivePath,
         createTarGzip([
           {
-            name: 'antigravity-awesome-skills-main/link',
+            name: 'annias-awesome-skills-main/link',
             type: '2',
             linkName: '/tmp/outside',
           },
@@ -414,10 +414,10 @@ describe('refresh-skills plugin security', () => {
           {
             name: '././@LongLink',
             type: 'L',
-            data: 'antigravity-awesome-skills-main/skills/demo/SKILL.md\0',
+            data: 'annias-awesome-skills-main/skills/demo/SKILL.md\0',
           },
           {
-            name: 'antigravity-awesome-skills-main/skills/demo/SKILL.md',
+            name: 'annias-awesome-skills-main/skills/demo/SKILL.md',
             data: 'demo',
           },
         ]),

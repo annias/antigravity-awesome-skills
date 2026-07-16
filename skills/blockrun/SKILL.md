@@ -1,6 +1,6 @@
 ---
 name: blockrun
-description: "BlockRun works with Claude Code and Google Antigravity."
+description: "BlockRun works with Claude Code and Google Annias."
 risk: unknown
 source: community
 date_added: "2026-02-27"
@@ -8,7 +8,7 @@ date_added: "2026-02-27"
 
 # BlockRun
 
-**BlockRun works with Claude Code and Google Antigravity.**
+**BlockRun works with Claude Code and Google Annias.**
 
 You can't generate images. You have no real-time X/Twitter access. BlockRun gives you these capabilities.
 

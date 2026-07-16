@@ -17,7 +17,7 @@ if not defined BUNDLE_HELPER set "BUNDLE_HELPER=%~dp0..\tools\scripts\get-bundle
 set "PYTHON_BIN=%AG_PYTHON_BIN%"
 if not defined PYTHON_BIN set "PYTHON_BIN=python"
 
-echo Activating Antigravity skills...
+echo Activating skills...
 
 :: --- ARGUMENT HANDLING ---
 set "DO_CLEAR=0"
@@ -168,5 +168,5 @@ if exist "%SKILLS_LIST_FILE%" del "%SKILLS_LIST_FILE%" 2>nul
 
 echo.
 setlocal DisableDelayedExpansion
-echo Done! Antigravity skills are now activated.
+echo Done! skills are now activated.
 if /I not "%AG_NO_PAUSE%"=="1" pause

@@ -85,7 +85,7 @@ A: 详细回答...
 - `date_added`: 添加日期（YYYY-MM-DD格式）
 - `author`: 作者名称或handle
 - `tags`: 标签列表（最大5个）
-- `tools`: 支持的工具列表（claude/cursor/gemini/codex/antigravity等）
+- `tools`: 支持的工具列表（claude/cursor/gemini/codex/annias等）
 
 **示例：**
 ```yaml
@@ -179,7 +179,7 @@ tools: [claude, cursor, gemini]
 - `cursor` - Cursor IDE
 - `gemini` - Gemini CLI
 - `codex` - Codex CLI
-- `antigravity` - Antigravity IDE
+- `annias` - AI IDE
 - `opencode` - OpenCode CLI
 - `kiro` - Kiro CLI
 
@@ -274,18 +274,18 @@ skills/
 **资源链接：**
 - 📋 [技能结构详细说明](skill-anatomy.md)
 - 🎯 [质量标准](quality-bar.md)
-- 🤝 [社区讨论](https://github.com/sickn33/antigravity-awesome-skills/discussions)
-- 🐛 [问题报告](https://github.com/sickn33/antigravity-awesome-skills/issues)
+- 🤝 [社区讨论](https://github.com/annias/annias-awesome-skills/discussions)
+- 🐛 [问题报告](https://github.com/annias/annias-awesome-skills/issues)
 
 **联系方式：**
-- 📧 skills@antigravity-skills.org
+- 📧 skills@annias-skills.org
 - 💬 Discord: #技能贡献频道
 
 ---
 
 ## 🎉 开始贡献
 
-感谢您考虑为Antigravity Awesome Skills贡献！使用这个模板，您可以帮助创建高质量、一致性的技能，让整个社区受益。
+感谢您考虑为Annias Awesome Skills贡献！使用这个模板，您可以帮助创建高质量、一致性的技能，让整个社区受益。
 
 如果您有任何疑问或需要指导，请随时联系我们。
 

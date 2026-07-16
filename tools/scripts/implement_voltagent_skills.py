@@ -31,7 +31,7 @@ def download_file(url: str, output_path: Path) -> bool:
             url = url.replace('/blob/', '/raw/')
         
         req = urllib.request.Request(url)
-        req.add_header('User-Agent', 'Mozilla/5.0 (compatible; AntigravitySkillsDownloader/1.0)')
+        req.add_header('User-Agent', 'Mozilla/5.0 (compatible; AnniasSkillsDownloader/1.0)')
         
         with urllib.request.urlopen(req, timeout=15) as response:
             content = response.read()

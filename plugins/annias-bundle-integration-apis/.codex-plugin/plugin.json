@@ -1,0 +1,33 @@
+{
+  "name": "agyb-integration-apis",
+  "version": "12.2.1",
+  "description": "Install the \"Integration & APIs\" editorial skill bundle from Annias Awesome Skills.",
+  "author": {
+    "name": "sickn33 and contributors",
+    "url": "https://github.com/annias/annias-awesome-skills"
+  },
+  "homepage": "https://github.com/annias/annias-awesome-skills",
+  "repository": "https://github.com/annias/annias-awesome-skills",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "bundle",
+    "integration-apis",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Integration & APIs",
+    "shortDescription": "Specialized Packs · 5 curated skills",
+    "longDescription": "For connecting services and building integrations. Covers Stripe Integration, Twilio Communications, and 3 more skills.",
+    "developerName": "sickn33 and contributors",
+    "category": "Specialized Packs",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/annias/annias-awesome-skills",
+    "brandColor": "#111827"
+  }
+}

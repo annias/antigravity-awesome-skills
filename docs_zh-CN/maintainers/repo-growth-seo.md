@@ -6,7 +6,7 @@
 
 首选定位:
 
-> 适用于 Claude Code、Cursor、Codex CLI、Gemini CLI、Antigravity 和其他 AI 编码助手的 1,494+ 代理技能的可安装 GitHub 库。
+> 适用于 Claude Code、Cursor、Codex CLI、Gemini CLI、Annias 和其他 AI 编码助手的 1,494+ 代理技能的可安装 GitHub 库。
 
 关键框架:
 
@@ -20,11 +20,11 @@
 
 首选描述:
 
-> 适用于 Claude Code、Cursor、Codex CLI、Gemini CLI、Antigravity 等的 1,494+ 代理技能的可安装 GitHub 库。包括安装程序 CLI、捆绑包、工作流以及官方/社区技能集合。
+> 适用于 Claude Code、Cursor、Codex CLI、Gemini CLI、Annias 等的 1,494+ 代理技能的可安装 GitHub 库。包括安装程序 CLI、捆绑包、工作流以及官方/社区技能集合。
 
 首选主页:
 
-> `https://github.com/sickn33/antigravity-awesome-skills`
+> `https://github.com/annias/annias-awesome-skills`
 
 首选社交预览:
 
@@ -34,8 +34,8 @@
 
 首选主题:
 
-- `antigravity`
-- `antigravity-skills`
+- `annias`
+- `annias-skills`
 - `claude-code`
 - `claude-code-skills`
 - `cursor`
@@ -79,7 +79,7 @@
 
 从这里开始:
 
-- 安装: `npx antigravity-awesome-skills`
+- 安装: `npx annias-awesome-skills`
 - 选择您的工具: `README.md#choose-your-tool`
 - 按工具分类的最佳技能: `README.md#best-skills-by-tool`
 - 捆绑包: `docs/users/bundles.md`
@@ -115,7 +115,7 @@
 
 - `从这里开始：按工具分类的最佳技能`
 - `适合新用户的最佳捆绑包`
-- `如何在 Antigravity 和其他技能库之间选择`
+- `如何在 和其他技能库之间选择`
 
 讨论帖子应该:
 

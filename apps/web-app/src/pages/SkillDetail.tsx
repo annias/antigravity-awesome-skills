@@ -68,7 +68,7 @@ export function SkillDetail(): React.ReactElement {
   const [customContext, setCustomContext] = useState('');
   const [commandCopied, setCommandCopied] = useState(false);
   const [retryToken, setRetryToken] = useState(0);
-  const installCommand = 'npx antigravity-awesome-skills';
+  const installCommand = 'npx annias-awesome-skills';
   const skill = useMemo(() => skills.find(s => s.id === id), [skills, id]);
 
   const topPrioritySkills = useMemo(() => selectTopSkills(skills), [skills]);

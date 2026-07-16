@@ -13,10 +13,10 @@ from update_readme import configure_utf8_output, find_repo_root, load_metadata, 
 
 
 ABOUT_DESCRIPTION_RE = re.compile(r'"description"\s*:\s*"([^"]*)"')
-GITHUB_HOMEPAGE_URL = "https://sickn33.github.io/antigravity-awesome-skills/"
+GITHUB_HOMEPAGE_URL = "https://annias.github.io/annias-awesome-skills/"
 RECOMMENDED_TOPICS = [
-    "antigravity",
-    "antigravity-skills",
+    "annias-awesome-skills",
+    "annias-skills",
     "claude-code",
     "claude-code-skills",
     "cursor",
@@ -37,7 +37,7 @@ RECOMMENDED_TOPICS = [
     "mcp",
 ]
 README_TAGLINE_RE = re.compile(
-    r"^> \*\*Installable GitHub library of \d[\d,]*\+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and other AI coding assistants\.\*\*$",
+    r"^> \*\*Installable GitHub library of \d[\d,]*\+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, and other AI coding assistants\.\*\*$",
     re.MULTILINE,
 )
 README_RELEASE_RE = re.compile(r"^\*\*Current release: V[\d.]+\.\*\* .*?$", re.MULTILINE)
@@ -46,7 +46,7 @@ README_BROAD_COVERAGE_RE = re.compile(
     re.MULTILINE,
 )
 README_NEW_HERE_RE = re.compile(
-    r"^\*\*Antigravity Awesome Skills\*\* \(Release [\d.]+\) is a large, installable skill library.*$",
+    r"^\*\*Annias Awesome Skills\*\* \(Release [\d.]+\) is a large, installable skill library.*$",
     re.MULTILINE,
 )
 README_INLINE_BROWSE_RE = re.compile(
@@ -57,7 +57,7 @@ README_TOC_BROWSE_RE = re.compile(
     re.MULTILINE,
 )
 GETTING_STARTED_TITLE_RE = re.compile(
-    r"^# Getting Started with Antigravity Awesome Skills \(V[\d.]+\)$", re.MULTILINE
+    r"^# Getting Started with Annias Awesome Skills \(V[\d.]+\)$", re.MULTILINE
 )
 BUNDLES_FOOTER_RE = re.compile(
     r"^_Last updated: .*? \| Total Skills: \d[\d,]*\+ \| Total Bundles: \d+_$",
@@ -68,7 +68,7 @@ BUNDLES_FOOTER_RE = re.compile(
 def build_about_description(metadata: dict) -> str:
     return (
         f"Installable GitHub library of {metadata['total_skills_label']} agentic skills for "
-        "Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. "
+        "Claude Code, Cursor, Codex CLI, Gemini CLI, and more. "
         "Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections."
     )
 
@@ -138,7 +138,7 @@ def sync_readme_copy(content: str, metadata: dict) -> str:
             README_TAGLINE_RE,
             (
                 f"> **Installable GitHub library of {metadata['total_skills_label']} agentic skills "
-                "for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and other AI coding assistants.**"
+                "for Claude Code, Cursor, Codex CLI, Gemini CLI, and other AI coding assistants.**"
             ),
         ),
         (
@@ -159,10 +159,10 @@ def sync_readme_copy(content: str, metadata: dict) -> str:
         (
             README_NEW_HERE_RE,
             (
-                f"**Antigravity Awesome Skills** (Release {metadata['version']}) is a large, installable "
+                f"**Annias Awesome Skills** (Release {metadata['version']}) is a large, installable "
                 f"skill library for AI coding assistants. It packages {metadata['total_skills_label']} reusable "
                 "`SKILL.md` playbooks, specialized plugins, bundles, workflows, generated catalogs, and a CLI "
-                "installer so Claude Code, Codex CLI, Cursor, Gemini CLI, Antigravity, and similar tools can "
+                "installer so Claude Code, Codex CLI, Cursor, Gemini CLI, and similar tools can "
                 "reuse proven operating instructions instead of one-off prompts."
             ),
         ),
@@ -186,7 +186,7 @@ def sync_getting_started(content: str, metadata: dict) -> str:
     content, _ = replace_if_present(
         content,
         GETTING_STARTED_TITLE_RE,
-        f"# Getting Started with Antigravity Awesome Skills (V{metadata['version']})",
+        f"# Getting Started with Annias Awesome Skills (V{metadata['version']})",
     )
     return content
 
@@ -346,7 +346,7 @@ def update_package_description(base_dir: str, metadata: dict, dry_run: bool) -> 
 
     new_description = (
         f"{metadata['total_skills_label']} agentic skills for Claude Code, Gemini CLI, "
-        "Cursor, Antigravity & more. Installer CLI."
+        "Cursor, & more. Installer CLI."
     )
     updated_content = ABOUT_DESCRIPTION_RE.sub(
         f'"description": "{new_description}"', content, count=1

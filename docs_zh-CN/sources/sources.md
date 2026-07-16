@@ -230,8 +230,8 @@
 
 如果您对来源归属有疑问或建议，请联系：
 
-- 📧 sources@antigravity-skills.org
-- 🐛 [GitHub Issues](https://github.com/sickn33/antigravity-awesome-skills/issues)
-- 💬 [GitHub Discussions](https://github.com/sickn33/antigravity-awesome-skills/discussions)
+- 📧 sources@annias-skills.org
+- 🐛 [GitHub Issues](https://github.com/annias/annias-awesome-skills/issues)
+- 💬 [GitHub Discussions](https://github.com/annias/annias-awesome-skills/discussions)
 
 我们致力于确保每个贡献都得到适当的认可和尊重。感谢您为AI开发社区做出的贡献！🙏
